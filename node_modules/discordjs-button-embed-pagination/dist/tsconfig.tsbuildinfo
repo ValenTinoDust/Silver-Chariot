@@ -1,0 +1,2340 @@
+{
+  "program": {
+    "fileInfos": {
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "signature": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2019.d.ts": {
+        "version": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
+        "signature": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2020.d.ts": {
+        "version": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
+        "signature": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.esnext.d.ts": {
+        "version": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
+        "signature": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "signature": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "signature": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2019.array.d.ts": {
+        "version": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
+        "signature": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2019.object.d.ts": {
+        "version": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
+        "signature": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2019.string.d.ts": {
+        "version": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
+        "signature": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+        "version": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
+        "signature": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2020.promise.d.ts": {
+        "version": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
+        "signature": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts": {
+        "version": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
+        "signature": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2020.string.d.ts": {
+        "version": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
+        "signature": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts": {
+        "version": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
+        "signature": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2020.intl.d.ts": {
+        "version": "e79ca55569f09a5dc3354be04dba4ae85865b1dce98bf46738ffe231c669621f",
+        "signature": "e79ca55569f09a5dc3354be04dba4ae85865b1dce98bf46738ffe231c669621f",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "signature": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.esnext.string.d.ts": {
+        "version": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
+        "signature": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.esnext.promise.d.ts": {
+        "version": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
+        "signature": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.esnext.weakref.d.ts": {
+        "version": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
+        "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/discord-api-types/globals.d.ts": {
+        "version": "eabab93ca9a786745af72195153280e883d8e36df9829ecf8b2f539824d042be",
+        "signature": "eabab93ca9a786745af72195153280e883d8e36df9829ecf8b2f539824d042be",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/permissions.d.ts": {
+        "version": "d3ed0bdc7460d95a90732872f2861a60f064318b8bad8ad4432d1c04e825c3e4",
+        "signature": "d3ed0bdc7460d95a90732872f2861a60f064318b8bad8ad4432d1c04e825c3e4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/emoji.d.ts": {
+        "version": "681f35c141c7a6201d5ffc038fbc28e46fb7a8702fc52b29d2d2dc7ca03328c2",
+        "signature": "681f35c141c7a6201d5ffc038fbc28e46fb7a8702fc52b29d2d2dc7ca03328c2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/internals.d.ts": {
+        "version": "cdb9451988aef334a797bc31eed3235d7b471a6e013bd2ccc92fbf89a535f4d7",
+        "signature": "cdb9451988aef334a797bc31eed3235d7b471a6e013bd2ccc92fbf89a535f4d7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts": {
+        "version": "8cedbf274baeb7b06233ee4adce9da566fc4c496d88b3fc6dbb58e27b7b90f58",
+        "signature": "8cedbf274baeb7b06233ee4adce9da566fc4c496d88b3fc6dbb58e27b7b90f58",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts": {
+        "version": "f74b7a54220bc565c738b824fdc2f063ca727001ee9f332d5c399bc59071611f",
+        "signature": "f74b7a54220bc565c738b824fdc2f063ca727001ee9f332d5c399bc59071611f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/string.d.ts": {
+        "version": "c7f940a988e13a3948197c3448e896087f598a5a4c7814030d1e54332043d1af",
+        "signature": "c7f940a988e13a3948197c3448e896087f598a5a4c7814030d1e54332043d1af",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/integer.d.ts": {
+        "version": "55518514e8bff9cebd363d735c3e85ba1c6f7588c9f320dbc1d565086ef2fc48",
+        "signature": "55518514e8bff9cebd363d735c3e85ba1c6f7588c9f320dbc1d565086ef2fc48",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/boolean.d.ts": {
+        "version": "9f7e239f4945672307c7d4403aa22bfe3d03f438fa072d7f158095f7df724e9f",
+        "signature": "9f7e239f4945672307c7d4403aa22bfe3d03f438fa072d7f158095f7df724e9f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/user.d.ts": {
+        "version": "7c5073d67f4f2546f368fe635573cfe6de977ed82318d01be15cee4c76c81199",
+        "signature": "7c5073d67f4f2546f368fe635573cfe6de977ed82318d01be15cee4c76c81199",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/channel.d.ts": {
+        "version": "7428869b608e55da6957d000ef9af727ec7424ebef7d2accc3901287c588b5e5",
+        "signature": "7428869b608e55da6957d000ef9af727ec7424ebef7d2accc3901287c588b5e5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/role.d.ts": {
+        "version": "ddef4fa1fd835adfae5660c6c98b24b602fbb65db1e2570fa5d9e947ad5cb17f",
+        "signature": "ddef4fa1fd835adfae5660c6c98b24b602fbb65db1e2570fa5d9e947ad5cb17f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/mentionable.d.ts": {
+        "version": "e7fb389e0c13e2120c9a8c824ddfabe18e56c316e53e66072e8d86e0610791e6",
+        "signature": "e7fb389e0c13e2120c9a8c824ddfabe18e56c316e53e66072e8d86e0610791e6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/number.d.ts": {
+        "version": "1b1bd699dfd3c316e64d0d40ce6e35265c24d25a18f6a4505904a0cc21f1ff67",
+        "signature": "1b1bd699dfd3c316e64d0d40ce6e35265c24d25a18f6a4505904a0cc21f1ff67",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommand.d.ts": {
+        "version": "8441a2b8098131edeec9b5092ae81903938a8c3ec8871de2502decff35ccda50",
+        "signature": "8441a2b8098131edeec9b5092ae81903938a8c3ec8871de2502decff35ccda50",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommandgroup.d.ts": {
+        "version": "7dbf615f4a2003faa46d93052c7abaa635aa541e266090b0b2350f40f3ae3242",
+        "signature": "7dbf615f4a2003faa46d93052c7abaa635aa541e266090b0b2350f40f3ae3242",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/chatinput.d.ts": {
+        "version": "9575d7cfbd601fda04531bb7a10dcc68529554c484e93e5f85a39e2101988612",
+        "signature": "9575d7cfbd601fda04531bb7a10dcc68529554c484e93e5f85a39e2101988612",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/contextmenu.d.ts": {
+        "version": "d91ebb09c2ae0cf320b66c42db3811e4cc8a8ebfc63c3b1e0ee0085cf1fa51ef",
+        "signature": "d91ebb09c2ae0cf320b66c42db3811e4cc8a8ebfc63c3b1e0ee0085cf1fa51ef",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/permissions.d.ts": {
+        "version": "b044fccf84b0f5c7cd8a1800a2ef0a7b740c062245823ce009265f4db3942623",
+        "signature": "b044fccf84b0f5c7cd8a1800a2ef0a7b740c062245823ce009265f4db3942623",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts": {
+        "version": "97e85df57e051301f940bad38a1e521bf4bd5e98da75554223cd30b0126b29f3",
+        "signature": "97e85df57e051301f940bad38a1e521bf4bd5e98da75554223cd30b0126b29f3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts": {
+        "version": "7c717290cb697d86874835037c8aab715d9477e7377c2a53198f2093c0addb2a",
+        "signature": "7c717290cb697d86874835037c8aab715d9477e7377c2a53198f2093c0addb2a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts": {
+        "version": "e285d39bd2590bf6e30dc326b513ffbc6e7ca2d67fcd94f2761e7f54cfa46dfc",
+        "signature": "e285d39bd2590bf6e30dc326b513ffbc6e7ca2d67fcd94f2761e7f54cfa46dfc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/messagecomponents.d.ts": {
+        "version": "d0d504c82b2a5d2bf48b951a5502ac7284ed974e3249a4fd1c795522c11d9a0d",
+        "signature": "d0d504c82b2a5d2bf48b951a5502ac7284ed974e3249a4fd1c795522c11d9a0d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/ping.d.ts": {
+        "version": "168eef670afa53e786ccb6afbf3cb78457ff6cc90064e80f0bc5da96cffda665",
+        "signature": "168eef670afa53e786ccb6afbf3cb78457ff6cc90064e80f0bc5da96cffda665",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/_interactions/autocomplete.d.ts": {
+        "version": "5651b6955a71b3733260dcf5f7d90f9d648d70b0c1fe24ff8bdcda589f60cbff",
+        "signature": "5651b6955a71b3733260dcf5f7d90f9d648d70b0c1fe24ff8bdcda589f60cbff",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/interactions.d.ts": {
+        "version": "36ef474db058911c62a48e6137965cb1dbbdef6a5c97b6887795984d9ee53afb",
+        "signature": "36ef474db058911c62a48e6137965cb1dbbdef6a5c97b6887795984d9ee53afb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/sticker.d.ts": {
+        "version": "f416e94790298bdfb37bdc8adb84239880af9224fb1c8513386a6e380aee805d",
+        "signature": "f416e94790298bdfb37bdc8adb84239880af9224fb1c8513386a6e380aee805d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/channel.d.ts": {
+        "version": "22af4d26bffe0e8c6c84e9d0d524d9cf770475365ca1c87467dbadd472c90b87",
+        "signature": "22af4d26bffe0e8c6c84e9d0d524d9cf770475365ca1c87467dbadd472c90b87",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/gateway.d.ts": {
+        "version": "79ce4bd3aabe9f6232bbf25eeaad9994ca94f416139224ebb01085e5ec8290af",
+        "signature": "79ce4bd3aabe9f6232bbf25eeaad9994ca94f416139224ebb01085e5ec8290af",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts": {
+        "version": "fef0f40e32a9e21e58a8ed60607caa0037e55c4c6fe3c842a5c3bd54888f9afa",
+        "signature": "fef0f40e32a9e21e58a8ed60607caa0037e55c4c6fe3c842a5c3bd54888f9afa",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/voice.d.ts": {
+        "version": "aebf66a3565c822b77a0c63280f3b07ef3040c985cfea54ad60e91f93b171ab9",
+        "signature": "aebf66a3565c822b77a0c63280f3b07ef3040c985cfea54ad60e91f93b171ab9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts": {
+        "version": "aaed09d856decdec134bd8c26a6cbf7d2584bf80c9e89c44c97e267b394b471b",
+        "signature": "aaed09d856decdec134bd8c26a6cbf7d2584bf80c9e89c44c97e267b394b471b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/guild.d.ts": {
+        "version": "6e18d45952d633c80a1d3a18171aa4a99d3dd0a1615ac2fd88fa93ec01d18ae8",
+        "signature": "6e18d45952d633c80a1d3a18171aa4a99d3dd0a1615ac2fd88fa93ec01d18ae8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/user.d.ts": {
+        "version": "ea4676f9da6673aa1835921f4d9ade3c9fa36a874633b9b90c3dbcde901da3a2",
+        "signature": "ea4676f9da6673aa1835921f4d9ade3c9fa36a874633b9b90c3dbcde901da3a2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/teams.d.ts": {
+        "version": "d110ef7cb005b60066855a3d0613dcb33e78c88ab48f1a94be49d8670d9b5496",
+        "signature": "d110ef7cb005b60066855a3d0613dcb33e78c88ab48f1a94be49d8670d9b5496",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/application.d.ts": {
+        "version": "f3eced93d63b305dd25c3bc0f550921dda3e40acab73276a929e9d01afe44ffe",
+        "signature": "f3eced93d63b305dd25c3bc0f550921dda3e40acab73276a929e9d01afe44ffe",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/webhook.d.ts": {
+        "version": "236a8048bc96944178f7459a0533cc3002e4f923a5f9bca88834d0d2a9290483",
+        "signature": "236a8048bc96944178f7459a0533cc3002e4f923a5f9bca88834d0d2a9290483",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/auditlog.d.ts": {
+        "version": "d5a60529c38f737d3567074f9a4ec7e4da7759df10912cad6f3d8bdbe662e9a1",
+        "signature": "d5a60529c38f737d3567074f9a4ec7e4da7759df10912cad6f3d8bdbe662e9a1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/invite.d.ts": {
+        "version": "4334f5fea672cd97484fa8ef470e5656d0f1bfcc48af553b7f1565bd46f96497",
+        "signature": "4334f5fea672cd97484fa8ef470e5656d0f1bfcc48af553b7f1565bd46f96497",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/oauth2.d.ts": {
+        "version": "22b6cddb5322bfe32a890fdd3f3a06264d1539f892e3a4f6dbf6f3aa8135883f",
+        "signature": "22b6cddb5322bfe32a890fdd3f3a06264d1539f892e3a4f6dbf6f3aa8135883f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/common.d.ts": {
+        "version": "3da82fc6ac4649060e524e8bce0b8ba8fe9b17716961f859d30df03734841211",
+        "signature": "3da82fc6ac4649060e524e8bce0b8ba8fe9b17716961f859d30df03734841211",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/auditlog.d.ts": {
+        "version": "f29e54511f37f6b0c8fa2825db6498afb9ffe2ab828ea6e692b68529cdba7482",
+        "signature": "f29e54511f37f6b0c8fa2825db6498afb9ffe2ab828ea6e692b68529cdba7482",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/utils/internals.d.ts": {
+        "version": "437b16e89921dc25ab6313e6685d08c6de6a7df806ff0ffd83596116cb69a0ca",
+        "signature": "437b16e89921dc25ab6313e6685d08c6de6a7df806ff0ffd83596116cb69a0ca",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/channel.d.ts": {
+        "version": "6028cfd2497f620b82b9e75502d3ae11dbb22b87286e2f21859cd5818f75ce9e",
+        "signature": "6028cfd2497f620b82b9e75502d3ae11dbb22b87286e2f21859cd5818f75ce9e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/emoji.d.ts": {
+        "version": "543771e77174eda3343f06a7edd0af8b044d83ac8b5e73ec7fbe576fa090d4a2",
+        "signature": "543771e77174eda3343f06a7edd0af8b044d83ac8b5e73ec7fbe576fa090d4a2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/gateway.d.ts": {
+        "version": "3134088754c10c988c58ad5cc63b6746e390d72c14a89d73a56100656925b532",
+        "signature": "3134088754c10c988c58ad5cc63b6746e390d72c14a89d73a56100656925b532",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/guild.d.ts": {
+        "version": "95f782b13666a491781b662afacf326f2733f44d8e69a3302ef6e8f30e5784e4",
+        "signature": "95f782b13666a491781b662afacf326f2733f44d8e69a3302ef6e8f30e5784e4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/guildscheduledevent.d.ts": {
+        "version": "b26659455eb3489593a2bc52a3db4ba638ac626b3a6b2c487c60616846eb33bb",
+        "signature": "b26659455eb3489593a2bc52a3db4ba638ac626b3a6b2c487c60616846eb33bb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/webhook.d.ts": {
+        "version": "3eba383986313232108bd804db31b71f60367732f6bb08b0a595089efb8f2652",
+        "signature": "3eba383986313232108bd804db31b71f60367732f6bb08b0a595089efb8f2652",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/interactions.d.ts": {
+        "version": "0421ecd58522337c4659fd264eaa659281f494811728c6c9cb873f027719e9d8",
+        "signature": "0421ecd58522337c4659fd264eaa659281f494811728c6c9cb873f027719e9d8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/invite.d.ts": {
+        "version": "5997a6356ec3bca0376b56cd4273adff367934c192e80acb9ca84b2a141727be",
+        "signature": "5997a6356ec3bca0376b56cd4273adff367934c192e80acb9ca84b2a141727be",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/oauth2.d.ts": {
+        "version": "fa51e795c197f47e1637261e029249887cd04c36ca9b811d08af8604d8691dc8",
+        "signature": "fa51e795c197f47e1637261e029249887cd04c36ca9b811d08af8604d8691dc8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/stageinstance.d.ts": {
+        "version": "d49cc486d093e5e8ae1c26ab9ef34ff6aa3b370173b72a8c7f26d5405abbd896",
+        "signature": "d49cc486d093e5e8ae1c26ab9ef34ff6aa3b370173b72a8c7f26d5405abbd896",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/sticker.d.ts": {
+        "version": "eb01a7a34a9801b025e68ffcfeba35878026ef0aed36c5d5c1167c27509e68ba",
+        "signature": "eb01a7a34a9801b025e68ffcfeba35878026ef0aed36c5d5c1167c27509e68ba",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/template.d.ts": {
+        "version": "60935703b458c8c407471d3a87112e7733cae17198cf1fa254020c0ffed85b1d",
+        "signature": "60935703b458c8c407471d3a87112e7733cae17198cf1fa254020c0ffed85b1d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/user.d.ts": {
+        "version": "eeabb4e164fe8fbc0caf6afec094230498edc84e7239a3ad38b9c9255b36f80b",
+        "signature": "eeabb4e164fe8fbc0caf6afec094230498edc84e7239a3ad38b9c9255b36f80b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/voice.d.ts": {
+        "version": "e6c450d02573f08e0b7253cbfadd93855c2353344e38b0681c06d44c3caaa6a3",
+        "signature": "e6c450d02573f08e0b7253cbfadd93855c2353344e38b0681c06d44c3caaa6a3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rest/v9/index.d.ts": {
+        "version": "cae3abdc49bdbbefe16879b9e0e08a7c1c8cd2864b7d64645dff1112901145ba",
+        "signature": "cae3abdc49bdbbefe16879b9e0e08a7c1c8cd2864b7d64645dff1112901145ba",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/template.d.ts": {
+        "version": "301c604c264389f8f6b4911830488dade60db491489c53b8e7f782616e2b9385",
+        "signature": "301c604c264389f8f6b4911830488dade60db491489c53b8e7f782616e2b9385",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/payloads/v9/index.d.ts": {
+        "version": "37f92d1fb75f356fcb796bd0dcb65a8a49c93676c1804c13649a690abdd6f2a3",
+        "signature": "37f92d1fb75f356fcb796bd0dcb65a8a49c93676c1804c13649a690abdd6f2a3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/gateway/common.d.ts": {
+        "version": "bad7ce18863ea540ea1b6a908f14bb407eeb8ba629f5daed791740cf6512c10e",
+        "signature": "bad7ce18863ea540ea1b6a908f14bb407eeb8ba629f5daed791740cf6512c10e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/gateway/v9.d.ts": {
+        "version": "bc75aa14918b32aab1b84c9f036e0d0636a67a34d87a5c9b8663a43434cb46bf",
+        "signature": "bc75aa14918b32aab1b84c9f036e0d0636a67a34d87a5c9b8663a43434cb46bf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/rpc/v9.d.ts": {
+        "version": "d9de6be7ea546933d744a8f6c222ce18f840a68cddc8eac8c5a4af37fbc6d802",
+        "signature": "d9de6be7ea546933d744a8f6c222ce18f840a68cddc8eac8c5a4af37fbc6d802",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/utils/v9.d.ts": {
+        "version": "06511a15f80ee05b40d987fe15532069416e8276d6cd0b0112e6bf058c975ffe",
+        "signature": "06511a15f80ee05b40d987fe15532069416e8276d6cd0b0112e6bf058c975ffe",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord-api-types/v9.d.ts": {
+        "version": "880787c9fb1ef2e540e1f3316ef53d3fb3ce65fc286afc7a060532e8996d475d",
+        "signature": "880787c9fb1ef2e540e1f3316ef53d3fb3ce65fc286afc7a060532e8996d475d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/zod/lib/helpers/util.d.ts": {
+        "version": "f7cd03b1e878621ae53bb9b2898d8cf3e13e79659d544baf0f5a6a39129426a5",
+        "signature": "f7cd03b1e878621ae53bb9b2898d8cf3e13e79659d544baf0f5a6a39129426a5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/zod/lib/zoderror.d.ts": {
+        "version": "9ca70efd76c176145bedb96c56bb726a09b639089f8dedc48a0891be41af29f8",
+        "signature": "9ca70efd76c176145bedb96c56bb726a09b639089f8dedc48a0891be41af29f8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/zod/lib/helpers/parseutil.d.ts": {
+        "version": "67426c8c5bfb212bd166d5e9418344563c0a87b6f88dd15b9eb7a8d85b763461",
+        "signature": "67426c8c5bfb212bd166d5e9418344563c0a87b6f88dd15b9eb7a8d85b763461",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/zod/lib/helpers/errorutil.d.ts": {
+        "version": "f967fb1409dcf8a09eb7cfe815797c33df09a983f1cc28312d78f337791b5110",
+        "signature": "f967fb1409dcf8a09eb7cfe815797c33df09a983f1cc28312d78f337791b5110",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/zod/lib/helpers/partialutil.d.ts": {
+        "version": "e68649aeefad399668a19be92e2a47aaf4f7e92818404f781e988834e52026ea",
+        "signature": "e68649aeefad399668a19be92e2a47aaf4f7e92818404f781e988834e52026ea",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/zod/lib/types.d.ts": {
+        "version": "ee621a22b03038e415f92f1a0535c86d7e6f942cba9cd2ccf60b49442fbd142e",
+        "signature": "ee621a22b03038e415f92f1a0535c86d7e6f942cba9cd2ccf60b49442fbd142e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/zod/lib/external.d.ts": {
+        "version": "372026b0cf2ec3a8d6fe0ff9658056b406389495792369a86cdb38baa6b5e98a",
+        "signature": "372026b0cf2ec3a8d6fe0ff9658056b406389495792369a86cdb38baa6b5e98a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/zod/lib/index.d.ts": {
+        "version": "c351c2643b4dc6b14e48d3b522c7f5f0f72e921c2dcb8e4065af9dc60bd3f340",
+        "signature": "c351c2643b4dc6b14e48d3b522c7f5f0f72e921c2dcb8e4065af9dc60bd3f340",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@discordjs/builders/dist/index.d.ts": {
+        "version": "5ee80e0f257336250b9db7ff9f444a31e8bbe8d572e2a128d0d47322a790ce15",
+        "signature": "5ee80e0f257336250b9db7ff9f444a31e8bbe8d572e2a128d0d47322a790ce15",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@discordjs/collection/dist/index.d.ts": {
+        "version": "ee20d6364acdfe569d2a3e97d1e2a062d64d8b658fa117037a0b2215abd7f163",
+        "signature": "ee20d6364acdfe569d2a3e97d1e2a062d64d8b658fa117037a0b2215abd7f163",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/assert/strict.d.ts": {
+        "version": "c7bdc99177a2a94d25fb13722adaaf5b3291bf70b4d1b27584ba189dd3889ba3",
+        "signature": "c7bdc99177a2a94d25fb13722adaaf5b3291bf70b4d1b27584ba189dd3889ba3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/globals.d.ts": {
+        "version": "7c4064a324cd755a9b281d5795fc6ebd9dd713b1c356220185c61eb1b2d0f1af",
+        "signature": "7c4064a324cd755a9b281d5795fc6ebd9dd713b1c356220185c61eb1b2d0f1af",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/async_hooks.d.ts": {
+        "version": "e23424b97418eca3226fd24de079f1203eb70360622e4e093af2aff14d4be6ec",
+        "signature": "e23424b97418eca3226fd24de079f1203eb70360622e4e093af2aff14d4be6ec",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/buffer.d.ts": {
+        "version": "ff16181fe134bb123283eb6777c624f6f3ee3f5c17d70b8447fa68af0935d312",
+        "signature": "ff16181fe134bb123283eb6777c624f6f3ee3f5c17d70b8447fa68af0935d312",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/child_process.d.ts": {
+        "version": "54868134aa26f98b6fbc8d28040d8a0f5e64a1cb0dfac7f059b35cac99d626f2",
+        "signature": "54868134aa26f98b6fbc8d28040d8a0f5e64a1cb0dfac7f059b35cac99d626f2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/cluster.d.ts": {
+        "version": "04eaa93bd75f937f9184dcb95a7983800c5770cf8ddd8ac0f3734dc02f5b20ef",
+        "signature": "04eaa93bd75f937f9184dcb95a7983800c5770cf8ddd8ac0f3734dc02f5b20ef",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/console.d.ts": {
+        "version": "7ddd5487c03df04c01a8618e06d875e167524902ed3dd9a2a9345a0ef5202d6f",
+        "signature": "7ddd5487c03df04c01a8618e06d875e167524902ed3dd9a2a9345a0ef5202d6f",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/constants.d.ts": {
+        "version": "45ac321f2e15d268fd74a90ddaa6467dcaaff2c5b13f95b4b85831520fb7a491",
+        "signature": "45ac321f2e15d268fd74a90ddaa6467dcaaff2c5b13f95b4b85831520fb7a491",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/crypto.d.ts": {
+        "version": "91550fb52e0781808bb5796aad0c084c006620f061793e6717c41085245fda47",
+        "signature": "91550fb52e0781808bb5796aad0c084c006620f061793e6717c41085245fda47",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/dgram.d.ts": {
+        "version": "c9f5f2920ff61d7158417b8440d5181ddc34a3dfef811a5677dd8a9fb91471e9",
+        "signature": "c9f5f2920ff61d7158417b8440d5181ddc34a3dfef811a5677dd8a9fb91471e9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/diagnostic_channel.d.ts": {
+        "version": "5cc0a492da3602510b8f5ed1852b1e0390002780d8758fbc8c0cd023ca7085f8",
+        "signature": "5cc0a492da3602510b8f5ed1852b1e0390002780d8758fbc8c0cd023ca7085f8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/dns.d.ts": {
+        "version": "ec7dafafe751a5121f8f1c80201ebe7e7238c47e6329280a73c4d1ca4bb7fa28",
+        "signature": "ec7dafafe751a5121f8f1c80201ebe7e7238c47e6329280a73c4d1ca4bb7fa28",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/dns/promises.d.ts": {
+        "version": "64debeb10e4b7ae4ec9e89bfb4e04c6101ab98c3cc806d14e5488607cfec2753",
+        "signature": "64debeb10e4b7ae4ec9e89bfb4e04c6101ab98c3cc806d14e5488607cfec2753",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/domain.d.ts": {
+        "version": "2866a528b2708aa272ec3eaafd3c980abb23aec1ef831cfc5eb2186b98c37ce5",
+        "signature": "2866a528b2708aa272ec3eaafd3c980abb23aec1ef831cfc5eb2186b98c37ce5",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/events.d.ts": {
+        "version": "a5782d6cea81fe43d2db7ed41e789458c933ab3ab60602f7b5b14c4da3370496",
+        "signature": "a5782d6cea81fe43d2db7ed41e789458c933ab3ab60602f7b5b14c4da3370496",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/fs.d.ts": {
+        "version": "b86b7ff709a82ef3cba2184136c025989958bad483ffb13e4ca35d720245adf4",
+        "signature": "b86b7ff709a82ef3cba2184136c025989958bad483ffb13e4ca35d720245adf4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/fs/promises.d.ts": {
+        "version": "05b1c856de9c8f2c09c86a89455e25965342496ebe6d089760a9646c51295c76",
+        "signature": "05b1c856de9c8f2c09c86a89455e25965342496ebe6d089760a9646c51295c76",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/http.d.ts": {
+        "version": "c0d983dfc997b446ec8e456dea90e8c0c97ba896d55d7e34dfc351f32c405eb9",
+        "signature": "c0d983dfc997b446ec8e456dea90e8c0c97ba896d55d7e34dfc351f32c405eb9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/http2.d.ts": {
+        "version": "b447e123210c68f205f67b20c996c04a1eb64b0e591c5e06e164cd3d3a869b28",
+        "signature": "b447e123210c68f205f67b20c996c04a1eb64b0e591c5e06e164cd3d3a869b28",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/https.d.ts": {
+        "version": "13257840c0850d4ebd7c2b17604a9e006f752de76c2400ebc752bc465c330452",
+        "signature": "13257840c0850d4ebd7c2b17604a9e006f752de76c2400ebc752bc465c330452",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/inspector.d.ts": {
+        "version": "42176966283d3835c34278b9b5c0f470d484c0c0c6a55c20a2c916a1ce69b6e8",
+        "signature": "42176966283d3835c34278b9b5c0f470d484c0c0c6a55c20a2c916a1ce69b6e8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/module.d.ts": {
+        "version": "0cff7901aedfe78e314f7d44088f07e2afa1b6e4f0473a4169b8456ca2fb245d",
+        "signature": "0cff7901aedfe78e314f7d44088f07e2afa1b6e4f0473a4169b8456ca2fb245d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/net.d.ts": {
+        "version": "6ea59cf5479f3fad5db2caa4513d8d06d6cfee8d8df69e7a040c9b5b7f25f39c",
+        "signature": "6ea59cf5479f3fad5db2caa4513d8d06d6cfee8d8df69e7a040c9b5b7f25f39c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/os.d.ts": {
+        "version": "e2236264a811ed1d09a2487a433e8f5216ae62378cf233954ae220cf886f6717",
+        "signature": "e2236264a811ed1d09a2487a433e8f5216ae62378cf233954ae220cf886f6717",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/path.d.ts": {
+        "version": "3ec1e108d587a5661ec790db607f482605ba9f3830e118ce578e3ffa3c42e22b",
+        "signature": "3ec1e108d587a5661ec790db607f482605ba9f3830e118ce578e3ffa3c42e22b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "100b3bb9d39d2b1b5340f1bf45a52e94ef1692b45232b4ba00fac5c3cc56d331",
+        "signature": "100b3bb9d39d2b1b5340f1bf45a52e94ef1692b45232b4ba00fac5c3cc56d331",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/process.d.ts": {
+        "version": "ec1a29ddaecb683aa360df0bd98ab5d4171d2d549554f7c5ab2a5c183a3dcb67",
+        "signature": "ec1a29ddaecb683aa360df0bd98ab5d4171d2d549554f7c5ab2a5c183a3dcb67",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/punycode.d.ts": {
+        "version": "7f77304372efe3c9967e5f9ea2061f1b4bf41dc3cda3c83cdd676f2e5af6b7e6",
+        "signature": "7f77304372efe3c9967e5f9ea2061f1b4bf41dc3cda3c83cdd676f2e5af6b7e6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/querystring.d.ts": {
+        "version": "992c6f6be16c0a1d2eec13ece33adeea2c747ba27fcd078353a8f4bb5b4fea58",
+        "signature": "992c6f6be16c0a1d2eec13ece33adeea2c747ba27fcd078353a8f4bb5b4fea58",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/readline.d.ts": {
+        "version": "2597718d91e306949d89e285bf34c44192014ef541c3bd7cbb825c022749e974",
+        "signature": "2597718d91e306949d89e285bf34c44192014ef541c3bd7cbb825c022749e974",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/repl.d.ts": {
+        "version": "a6b0abdb67d63ebe964ba5fee31bc3daf10c12eecd46b24d778426010c04c67e",
+        "signature": "a6b0abdb67d63ebe964ba5fee31bc3daf10c12eecd46b24d778426010c04c67e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/stream.d.ts": {
+        "version": "ac4801ebc2355ba32329070123b1cd15891bf71b41dcaf9e75b4744832126a59",
+        "signature": "ac4801ebc2355ba32329070123b1cd15891bf71b41dcaf9e75b4744832126a59",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/stream/promises.d.ts": {
+        "version": "fd2298fba0640e7295e7bd545e2dfbfcccbb00c27019e501c87965a02bbdebf6",
+        "signature": "fd2298fba0640e7295e7bd545e2dfbfcccbb00c27019e501c87965a02bbdebf6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/string_decoder.d.ts": {
+        "version": "4fd3c4debadce3e9ab9dec3eb45f7f5e2e3d4ad65cf975a6d938d883cfb25a50",
+        "signature": "4fd3c4debadce3e9ab9dec3eb45f7f5e2e3d4ad65cf975a6d938d883cfb25a50",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/timers.d.ts": {
+        "version": "71ddd49185b68f27bfac127ef5d22cb2672c278e53e5370d9020ef50ca9c377d",
+        "signature": "71ddd49185b68f27bfac127ef5d22cb2672c278e53e5370d9020ef50ca9c377d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/timers/promises.d.ts": {
+        "version": "b1ea7a6eaa7608e0e0529aebd323b526a79c6c05a4e519ae5c779675004dcdf1",
+        "signature": "b1ea7a6eaa7608e0e0529aebd323b526a79c6c05a4e519ae5c779675004dcdf1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/tls.d.ts": {
+        "version": "9fcb033a6208485d8f3fadde31eb5cbcaf99149cff3e40c0dc53ebc6d0dff4e9",
+        "signature": "9fcb033a6208485d8f3fadde31eb5cbcaf99149cff3e40c0dc53ebc6d0dff4e9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/trace_events.d.ts": {
+        "version": "7df562288f949945cf69c21cd912100c2afedeeb7cdb219085f7f4b46cb7dde4",
+        "signature": "7df562288f949945cf69c21cd912100c2afedeeb7cdb219085f7f4b46cb7dde4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/tty.d.ts": {
+        "version": "9d16690485ff1eb4f6fc57aebe237728fd8e03130c460919da3a35f4d9bd97f5",
+        "signature": "9d16690485ff1eb4f6fc57aebe237728fd8e03130c460919da3a35f4d9bd97f5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/url.d.ts": {
+        "version": "dcc6910d95a3625fd2b0487fda055988e46ab46c357a1b3618c27b4a8dd739c9",
+        "signature": "dcc6910d95a3625fd2b0487fda055988e46ab46c357a1b3618c27b4a8dd739c9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/util.d.ts": {
+        "version": "f4149f1aa299474c7040a35fe8f8ac2ad078cc1b190415adc1fff3ed52d490ea",
+        "signature": "f4149f1aa299474c7040a35fe8f8ac2ad078cc1b190415adc1fff3ed52d490ea",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/util/types.d.ts": {
+        "version": "3730099ed008776216268a97771de31753ef71e0a7d0ec650f588cba2a06ce44",
+        "signature": "3730099ed008776216268a97771de31753ef71e0a7d0ec650f588cba2a06ce44",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/v8.d.ts": {
+        "version": "8d649dbc429d7139a1d9a14ea2bf8af1dc089e0a879447539587463d4b6c248c",
+        "signature": "8d649dbc429d7139a1d9a14ea2bf8af1dc089e0a879447539587463d4b6c248c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/vm.d.ts": {
+        "version": "60c9e27816ec8ac8df7240598bb086e95b47edfb454c5cbf4003c812e0ed6e39",
+        "signature": "60c9e27816ec8ac8df7240598bb086e95b47edfb454c5cbf4003c812e0ed6e39",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/worker_threads.d.ts": {
+        "version": "e361aecf17fc4034b4c122a1564471cdcd22ef3a51407803cb5a5fc020c04d02",
+        "signature": "e361aecf17fc4034b4c122a1564471cdcd22ef3a51407803cb5a5fc020c04d02",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/zlib.d.ts": {
+        "version": "4926467de88a92a4fc9971d8c6f21b91eca1c0e7fc2a46cc4638ab9440c73875",
+        "signature": "4926467de88a92a4fc9971d8c6f21b91eca1c0e7fc2a46cc4638ab9440c73875",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/globals.global.d.ts": {
+        "version": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "signature": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/wasi.d.ts": {
+        "version": "fc0ae4a8ad3c762b96f9d2c3700cb879a373458cb0bf3175478e3b4f85f7ef2f",
+        "signature": "fc0ae4a8ad3c762b96f9d2c3700cb879a373458cb0bf3175478e3b4f85f7ef2f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/ts3.6/base.d.ts": {
+        "version": "fabbec378e1ddd86fcf2662e716c2b8318acedb664ee3a4cba6f9e8ee8269cf1",
+        "signature": "fabbec378e1ddd86fcf2662e716c2b8318acedb664ee3a4cba6f9e8ee8269cf1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/assert.d.ts": {
+        "version": "b3593bd345ebea5e4d0a894c03251a3774b34df3d6db57075c18e089a599ba76",
+        "signature": "b3593bd345ebea5e4d0a894c03251a3774b34df3d6db57075c18e089a599ba76",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/base.d.ts": {
+        "version": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "signature": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/index.d.ts": {
+        "version": "13c7832f048b08604b7e88b69247aecf955bb7b27a0881c2f7f23bb645435479",
+        "signature": "13c7832f048b08604b7e88b69247aecf955bb7b27a0881c2f7f23bb645435479",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node-fetch/node_modules/form-data/index.d.ts": {
+        "version": "736097ddbb2903bef918bb3b5811ef1c9c5656f2a73bd39b22a91b9cc2525e50",
+        "signature": "736097ddbb2903bef918bb3b5811ef1c9c5656f2a73bd39b22a91b9cc2525e50",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node-fetch/externals.d.ts": {
+        "version": "208bb742e0f201470da121bc73847c74b62cff4172f38ae5949ae77d6c9c6b71",
+        "signature": "208bb742e0f201470da121bc73847c74b62cff4172f38ae5949ae77d6c9c6b71",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node-fetch/index.d.ts": {
+        "version": "062bd2910098fc059ba93e347649b3e126c555f7b144033d21d3f8ef63d3e39b",
+        "signature": "062bd2910098fc059ba93e347649b3e126c555f7b144033d21d3f8ef63d3e39b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/ws/index.d.ts": {
+        "version": "012a04966bcb8a6f522ccd21f6efac3d837f3ea806c55b5849556aad22777f38",
+        "signature": "012a04966bcb8a6f522ccd21f6efac3d837f3ea806c55b5849556aad22777f38",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord.js/typings/enums.d.ts": {
+        "version": "4b5ecb9edde130bbc95224b449b4eae534ee9ad3e2fa955815d2f688a2cd8dbc",
+        "signature": "4b5ecb9edde130bbc95224b449b4eae534ee9ad3e2fa955815d2f688a2cd8dbc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord.js/typings/rawdatatypes.d.ts": {
+        "version": "c928bb9d9f991e1065e1bdc5658e146279d1467607cd56fe2db448adca9096aa",
+        "signature": "c928bb9d9f991e1065e1bdc5658e146279d1467607cd56fe2db448adca9096aa",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/discord.js/typings/index.d.ts": {
+        "version": "b793cc516f23101e90cf189d0ee752288a0c757219f74374a017c06e66ddb12b",
+        "signature": "b793cc516f23101e90cf189d0ee752288a0c757219f74374a017c06e66ddb12b",
+        "affectsGlobalScope": false
+      },
+      "../src/types/buttonoption.ts": {
+        "version": "d38ffb3f5387f8ef1f456463240051ba139a40193be287fc32461f2faa26d3fe",
+        "signature": "c82375697d777dae3e84f473c63c5ce8b6b397d59c085e6663a970a0945832ed",
+        "affectsGlobalScope": false
+      },
+      "../src/index.ts": {
+        "version": "dce5ec1d6c96a3fa47fc793ea339682217c9f4c4a38ac4c834ff8af81d2069b5",
+        "signature": "afc13febbccc8c2e940d504cd2934e0860beda9b27f6dfb033b99f9df07577bf",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "strict": true,
+      "moduleResolution": 2,
+      "removeComments": false,
+      "alwaysStrict": true,
+      "pretty": true,
+      "target": 6,
+      "lib": [
+        "lib.esnext.d.ts"
+      ],
+      "sourceMap": true,
+      "inlineSources": true,
+      "module": 1,
+      "declaration": true,
+      "declarationMap": true,
+      "outDir": "./",
+      "incremental": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../node_modules/@discordjs/builders/dist/index.d.ts": [
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/v9.d.ts",
+        "../node_modules/zod/lib/index.d.ts"
+      ],
+      "../node_modules/@types/node-fetch/index.d.ts": [
+        "../node_modules/@types/node-fetch/externals.d.ts",
+        "../node_modules/@types/node-fetch/node_modules/form-data/index.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node-fetch/node_modules/form-data/index.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/assert/strict.d.ts": [
+        "../node_modules/@types/node/assert.d.ts"
+      ],
+      "../node_modules/@types/node/base.d.ts": [
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "../node_modules/@types/node/buffer.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/crypto.d.ts"
+      ],
+      "../node_modules/@types/node/child_process.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/cluster.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/console.d.ts": [
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/node/constants.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/os.d.ts"
+      ],
+      "../node_modules/@types/node/crypto.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts"
+      ],
+      "../node_modules/@types/node/dgram.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/dns.d.ts": [
+        "../node_modules/@types/node/dns/promises.d.ts"
+      ],
+      "../node_modules/@types/node/dns/promises.d.ts": [
+        "../node_modules/@types/node/dns.d.ts"
+      ],
+      "../node_modules/@types/node/domain.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/events.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/fs.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/fs/promises.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts"
+      ],
+      "../node_modules/@types/node/http.d.ts": [
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http2.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/https.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/index.d.ts": [
+        "../node_modules/@types/node/base.d.ts"
+      ],
+      "../node_modules/@types/node/inspector.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/module.d.ts": [
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/net.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/path.d.ts": [
+        "../node_modules/@types/node/path.d.ts"
+      ],
+      "../node_modules/@types/node/perf_hooks.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "../node_modules/@types/node/process.d.ts": [
+        "../node_modules/@types/node/tty.d.ts"
+      ],
+      "../node_modules/@types/node/readline.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/repl.d.ts": [
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/stream.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream/promises.d.ts"
+      ],
+      "../node_modules/@types/node/stream/promises.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/timers.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/timers/promises.d.ts": [
+        "../node_modules/@types/node/timers.d.ts"
+      ],
+      "../node_modules/@types/node/tls.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.6/base.d.ts": [
+        "../node_modules/@types/node/assert/strict.d.ts",
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/cluster.d.ts",
+        "../node_modules/@types/node/console.d.ts",
+        "../node_modules/@types/node/constants.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dgram.d.ts",
+        "../node_modules/@types/node/diagnostic_channel.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/dns/promises.d.ts",
+        "../node_modules/@types/node/domain.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/globals.global.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/http2.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/module.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/os.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/punycode.d.ts",
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/repl.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/stream/promises.d.ts",
+        "../node_modules/@types/node/string_decoder.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/trace_events.d.ts",
+        "../node_modules/@types/node/tty.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/util/types.d.ts",
+        "../node_modules/@types/node/v8.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/wasi.d.ts",
+        "../node_modules/@types/node/worker_threads.d.ts",
+        "../node_modules/@types/node/zlib.d.ts"
+      ],
+      "../node_modules/@types/node/tty.d.ts": [
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/url.d.ts": [
+        "../node_modules/@types/node/querystring.d.ts"
+      ],
+      "../node_modules/@types/node/util.d.ts": [
+        "../node_modules/@types/node/util/types.d.ts"
+      ],
+      "../node_modules/@types/node/v8.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/worker_threads.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/zlib.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/ws/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/zlib.d.ts"
+      ],
+      "../node_modules/discord-api-types/gateway/v9.d.ts": [
+        "../node_modules/discord-api-types/gateway/common.d.ts",
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/boolean.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/channel.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/integer.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/mentionable.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/number.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/role.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/string.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommand.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/chatinput.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommandgroup.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommand.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/user.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/chatinput.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/boolean.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/integer.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/mentionable.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/number.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/role.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/string.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommand.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommandgroup.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/user.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/internals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/contextmenu.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/internals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/internals.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/permissions.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/chatinput.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/contextmenu.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/autocomplete.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/messagecomponents.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/interactions.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/ping.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/v9.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/application.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/teams.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/auditlog.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/webhook.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/channel.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/application.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/interactions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/emoji.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/gateway.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/guild.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/gateway.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/voice.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/index.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/application.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/auditlog.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/gateway.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/interactions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/invite.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/oauth2.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/teams.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/template.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/voice.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/webhook.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/interactions.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/autocomplete.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/messagecomponents.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/ping.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/invite.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/application.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/permissions.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/sticker.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/teams.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/template.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts",
+        "../node_modules/discord-api-types/rest/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/user.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/voice.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/webhook.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/auditlog.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/auditlog.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/channel.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/emoji.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/gateway.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/guild.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/rest/v9/channel.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/guildscheduledevent.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts",
+        "../node_modules/discord-api-types/v9.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/index.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/rest/common.d.ts",
+        "../node_modules/discord-api-types/rest/v9/auditlog.d.ts",
+        "../node_modules/discord-api-types/rest/v9/channel.d.ts",
+        "../node_modules/discord-api-types/rest/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/rest/v9/gateway.d.ts",
+        "../node_modules/discord-api-types/rest/v9/guild.d.ts",
+        "../node_modules/discord-api-types/rest/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/rest/v9/interactions.d.ts",
+        "../node_modules/discord-api-types/rest/v9/invite.d.ts",
+        "../node_modules/discord-api-types/rest/v9/oauth2.d.ts",
+        "../node_modules/discord-api-types/rest/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/rest/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/rest/v9/template.d.ts",
+        "../node_modules/discord-api-types/rest/v9/user.d.ts",
+        "../node_modules/discord-api-types/rest/v9/voice.d.ts",
+        "../node_modules/discord-api-types/rest/v9/webhook.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/interactions.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/rest/v9/webhook.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/invite.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/oauth2.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/stageinstance.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/sticker.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/template.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/user.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/voice.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/webhook.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/utils/v9.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/v9.d.ts": [
+        "../node_modules/discord-api-types/gateway/v9.d.ts",
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/rest/v9/index.d.ts",
+        "../node_modules/discord-api-types/rpc/v9.d.ts",
+        "../node_modules/discord-api-types/utils/v9.d.ts"
+      ],
+      "../node_modules/discord.js/typings/index.d.ts": [
+        "../node_modules/@discordjs/builders/dist/index.d.ts",
+        "../node_modules/@discordjs/collection/dist/index.d.ts",
+        "../node_modules/@types/node-fetch/index.d.ts",
+        "../node_modules/@types/ws/index.d.ts",
+        "../node_modules/discord-api-types/v9.d.ts",
+        "../node_modules/discord.js/typings/enums.d.ts",
+        "../node_modules/discord.js/typings/rawdatatypes.d.ts"
+      ],
+      "../node_modules/discord.js/typings/rawdatatypes.d.ts": [
+        "../node_modules/discord-api-types/v9.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
+      ],
+      "../node_modules/zod/lib/external.d.ts": [
+        "../node_modules/zod/lib/helpers/parseutil.d.ts",
+        "../node_modules/zod/lib/types.d.ts",
+        "../node_modules/zod/lib/zoderror.d.ts"
+      ],
+      "../node_modules/zod/lib/helpers/parseutil.d.ts": [
+        "../node_modules/zod/lib/zoderror.d.ts"
+      ],
+      "../node_modules/zod/lib/helpers/partialutil.d.ts": [
+        "../node_modules/zod/lib/index.d.ts"
+      ],
+      "../node_modules/zod/lib/index.d.ts": [
+        "../node_modules/zod/lib/external.d.ts"
+      ],
+      "../node_modules/zod/lib/types.d.ts": [
+        "../node_modules/zod/lib/helpers/errorutil.d.ts",
+        "../node_modules/zod/lib/helpers/parseutil.d.ts",
+        "../node_modules/zod/lib/helpers/partialutil.d.ts",
+        "../node_modules/zod/lib/helpers/util.d.ts",
+        "../node_modules/zod/lib/zoderror.d.ts"
+      ],
+      "../node_modules/zod/lib/zoderror.d.ts": [
+        "../node_modules/zod/lib/helpers/parseutil.d.ts",
+        "../node_modules/zod/lib/helpers/util.d.ts"
+      ],
+      "../src/index.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/types/buttonoption.ts"
+      ],
+      "../src/types/buttonoption.ts": [
+        "../node_modules/discord.js/typings/enums.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../node_modules/@discordjs/builders/dist/index.d.ts": [
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/v9.d.ts",
+        "../node_modules/zod/lib/index.d.ts"
+      ],
+      "../node_modules/@types/node-fetch/index.d.ts": [
+        "../node_modules/@types/node-fetch/externals.d.ts",
+        "../node_modules/@types/node-fetch/node_modules/form-data/index.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node-fetch/node_modules/form-data/index.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/assert/strict.d.ts": [
+        "../node_modules/@types/node/assert.d.ts"
+      ],
+      "../node_modules/@types/node/base.d.ts": [
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "../node_modules/@types/node/buffer.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/crypto.d.ts"
+      ],
+      "../node_modules/@types/node/child_process.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/cluster.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/console.d.ts": [
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/node/constants.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/os.d.ts"
+      ],
+      "../node_modules/@types/node/crypto.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts"
+      ],
+      "../node_modules/@types/node/dgram.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/dns.d.ts": [
+        "../node_modules/@types/node/dns/promises.d.ts"
+      ],
+      "../node_modules/@types/node/dns/promises.d.ts": [
+        "../node_modules/@types/node/dns.d.ts"
+      ],
+      "../node_modules/@types/node/domain.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/events.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/fs.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/fs/promises.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts"
+      ],
+      "../node_modules/@types/node/http.d.ts": [
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http2.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/https.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/index.d.ts": [
+        "../node_modules/@types/node/base.d.ts"
+      ],
+      "../node_modules/@types/node/inspector.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/module.d.ts": [
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/net.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/path.d.ts": [
+        "../node_modules/@types/node/path.d.ts"
+      ],
+      "../node_modules/@types/node/perf_hooks.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "../node_modules/@types/node/process.d.ts": [
+        "../node_modules/@types/node/tty.d.ts"
+      ],
+      "../node_modules/@types/node/readline.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/repl.d.ts": [
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/stream.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream/promises.d.ts"
+      ],
+      "../node_modules/@types/node/stream/promises.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/timers.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/timers/promises.d.ts": [
+        "../node_modules/@types/node/timers.d.ts"
+      ],
+      "../node_modules/@types/node/tls.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.6/base.d.ts": [
+        "../node_modules/@types/node/assert/strict.d.ts",
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/cluster.d.ts",
+        "../node_modules/@types/node/console.d.ts",
+        "../node_modules/@types/node/constants.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dgram.d.ts",
+        "../node_modules/@types/node/diagnostic_channel.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/dns/promises.d.ts",
+        "../node_modules/@types/node/domain.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/globals.global.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/http2.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/module.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/os.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/punycode.d.ts",
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/repl.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/stream/promises.d.ts",
+        "../node_modules/@types/node/string_decoder.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/timers/promises.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/trace_events.d.ts",
+        "../node_modules/@types/node/tty.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/util/types.d.ts",
+        "../node_modules/@types/node/v8.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/wasi.d.ts",
+        "../node_modules/@types/node/worker_threads.d.ts",
+        "../node_modules/@types/node/zlib.d.ts"
+      ],
+      "../node_modules/@types/node/tty.d.ts": [
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/url.d.ts": [
+        "../node_modules/@types/node/querystring.d.ts"
+      ],
+      "../node_modules/@types/node/util.d.ts": [
+        "../node_modules/@types/node/util/types.d.ts"
+      ],
+      "../node_modules/@types/node/v8.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/worker_threads.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/zlib.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/ws/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/zlib.d.ts"
+      ],
+      "../node_modules/discord-api-types/gateway/v9.d.ts": [
+        "../node_modules/discord-api-types/gateway/common.d.ts",
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/boolean.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/channel.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/integer.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/mentionable.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/number.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/role.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/string.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommand.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/chatinput.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommandgroup.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommand.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/user.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/chatinput.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/boolean.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/integer.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/mentionable.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/number.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/role.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/string.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommand.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommandgroup.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/user.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/internals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/contextmenu.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/internals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/internals.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/permissions.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/chatinput.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/contextmenu.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/autocomplete.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/messagecomponents.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/interactions.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/ping.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/v9.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/application.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/teams.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/auditlog.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/webhook.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/channel.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/application.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/interactions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/emoji.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/gateway.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/guild.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/gateway.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/voice.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/index.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/application.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/auditlog.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/gateway.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/interactions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/invite.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/oauth2.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/teams.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/template.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/voice.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/webhook.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/interactions.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/autocomplete.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/messagecomponents.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/ping.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/invite.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/application.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/permissions.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/sticker.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/teams.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/template.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/user.d.ts",
+        "../node_modules/discord-api-types/rest/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/user.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/voice.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/guild.d.ts"
+      ],
+      "../node_modules/discord-api-types/payloads/v9/webhook.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/auditlog.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/auditlog.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/channel.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/emoji.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/gateway.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/guild.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/rest/v9/channel.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/guildscheduledevent.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts",
+        "../node_modules/discord-api-types/v9.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/index.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/rest/common.d.ts",
+        "../node_modules/discord-api-types/rest/v9/auditlog.d.ts",
+        "../node_modules/discord-api-types/rest/v9/channel.d.ts",
+        "../node_modules/discord-api-types/rest/v9/emoji.d.ts",
+        "../node_modules/discord-api-types/rest/v9/gateway.d.ts",
+        "../node_modules/discord-api-types/rest/v9/guild.d.ts",
+        "../node_modules/discord-api-types/rest/v9/guildscheduledevent.d.ts",
+        "../node_modules/discord-api-types/rest/v9/interactions.d.ts",
+        "../node_modules/discord-api-types/rest/v9/invite.d.ts",
+        "../node_modules/discord-api-types/rest/v9/oauth2.d.ts",
+        "../node_modules/discord-api-types/rest/v9/stageinstance.d.ts",
+        "../node_modules/discord-api-types/rest/v9/sticker.d.ts",
+        "../node_modules/discord-api-types/rest/v9/template.d.ts",
+        "../node_modules/discord-api-types/rest/v9/user.d.ts",
+        "../node_modules/discord-api-types/rest/v9/voice.d.ts",
+        "../node_modules/discord-api-types/rest/v9/webhook.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/interactions.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/rest/v9/webhook.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/invite.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/oauth2.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/stageinstance.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/sticker.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/template.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/user.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/voice.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/rest/v9/webhook.d.ts": [
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/utils/internals.d.ts"
+      ],
+      "../node_modules/discord-api-types/utils/v9.d.ts": [
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts"
+      ],
+      "../node_modules/discord-api-types/v9.d.ts": [
+        "../node_modules/discord-api-types/gateway/v9.d.ts",
+        "../node_modules/discord-api-types/globals.d.ts",
+        "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+        "../node_modules/discord-api-types/rest/v9/index.d.ts",
+        "../node_modules/discord-api-types/rpc/v9.d.ts",
+        "../node_modules/discord-api-types/utils/v9.d.ts"
+      ],
+      "../node_modules/discord.js/typings/index.d.ts": [
+        "../node_modules/@discordjs/builders/dist/index.d.ts",
+        "../node_modules/@discordjs/collection/dist/index.d.ts",
+        "../node_modules/@types/node-fetch/index.d.ts",
+        "../node_modules/@types/ws/index.d.ts",
+        "../node_modules/discord-api-types/v9.d.ts",
+        "../node_modules/discord.js/typings/enums.d.ts",
+        "../node_modules/discord.js/typings/rawdatatypes.d.ts"
+      ],
+      "../node_modules/discord.js/typings/rawdatatypes.d.ts": [
+        "../node_modules/discord-api-types/v9.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
+      ],
+      "../node_modules/zod/lib/external.d.ts": [
+        "../node_modules/zod/lib/helpers/parseutil.d.ts",
+        "../node_modules/zod/lib/types.d.ts",
+        "../node_modules/zod/lib/zoderror.d.ts"
+      ],
+      "../node_modules/zod/lib/helpers/parseutil.d.ts": [
+        "../node_modules/zod/lib/zoderror.d.ts"
+      ],
+      "../node_modules/zod/lib/helpers/partialutil.d.ts": [
+        "../node_modules/zod/lib/index.d.ts"
+      ],
+      "../node_modules/zod/lib/index.d.ts": [
+        "../node_modules/zod/lib/external.d.ts"
+      ],
+      "../node_modules/zod/lib/types.d.ts": [
+        "../node_modules/zod/lib/helpers/errorutil.d.ts",
+        "../node_modules/zod/lib/helpers/parseutil.d.ts",
+        "../node_modules/zod/lib/helpers/partialutil.d.ts",
+        "../node_modules/zod/lib/helpers/util.d.ts",
+        "../node_modules/zod/lib/zoderror.d.ts"
+      ],
+      "../node_modules/zod/lib/zoderror.d.ts": [
+        "../node_modules/zod/lib/helpers/parseutil.d.ts",
+        "../node_modules/zod/lib/helpers/util.d.ts"
+      ],
+      "../src/index.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/types/buttonoption.ts"
+      ],
+      "../src/types/buttonoption.ts": [
+        "../node_modules/discord.js/typings/enums.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../node_modules/@discordjs/builders/dist/index.d.ts",
+      "../node_modules/@discordjs/collection/dist/index.d.ts",
+      "../node_modules/@types/node-fetch/externals.d.ts",
+      "../node_modules/@types/node-fetch/index.d.ts",
+      "../node_modules/@types/node-fetch/node_modules/form-data/index.d.ts",
+      "../node_modules/@types/node/assert.d.ts",
+      "../node_modules/@types/node/assert/strict.d.ts",
+      "../node_modules/@types/node/async_hooks.d.ts",
+      "../node_modules/@types/node/base.d.ts",
+      "../node_modules/@types/node/buffer.d.ts",
+      "../node_modules/@types/node/child_process.d.ts",
+      "../node_modules/@types/node/cluster.d.ts",
+      "../node_modules/@types/node/console.d.ts",
+      "../node_modules/@types/node/constants.d.ts",
+      "../node_modules/@types/node/crypto.d.ts",
+      "../node_modules/@types/node/dgram.d.ts",
+      "../node_modules/@types/node/diagnostic_channel.d.ts",
+      "../node_modules/@types/node/dns.d.ts",
+      "../node_modules/@types/node/dns/promises.d.ts",
+      "../node_modules/@types/node/domain.d.ts",
+      "../node_modules/@types/node/events.d.ts",
+      "../node_modules/@types/node/fs.d.ts",
+      "../node_modules/@types/node/fs/promises.d.ts",
+      "../node_modules/@types/node/globals.d.ts",
+      "../node_modules/@types/node/globals.global.d.ts",
+      "../node_modules/@types/node/http.d.ts",
+      "../node_modules/@types/node/http2.d.ts",
+      "../node_modules/@types/node/https.d.ts",
+      "../node_modules/@types/node/index.d.ts",
+      "../node_modules/@types/node/inspector.d.ts",
+      "../node_modules/@types/node/module.d.ts",
+      "../node_modules/@types/node/net.d.ts",
+      "../node_modules/@types/node/os.d.ts",
+      "../node_modules/@types/node/path.d.ts",
+      "../node_modules/@types/node/perf_hooks.d.ts",
+      "../node_modules/@types/node/process.d.ts",
+      "../node_modules/@types/node/punycode.d.ts",
+      "../node_modules/@types/node/querystring.d.ts",
+      "../node_modules/@types/node/readline.d.ts",
+      "../node_modules/@types/node/repl.d.ts",
+      "../node_modules/@types/node/stream.d.ts",
+      "../node_modules/@types/node/stream/promises.d.ts",
+      "../node_modules/@types/node/string_decoder.d.ts",
+      "../node_modules/@types/node/timers.d.ts",
+      "../node_modules/@types/node/timers/promises.d.ts",
+      "../node_modules/@types/node/tls.d.ts",
+      "../node_modules/@types/node/trace_events.d.ts",
+      "../node_modules/@types/node/ts3.6/base.d.ts",
+      "../node_modules/@types/node/tty.d.ts",
+      "../node_modules/@types/node/url.d.ts",
+      "../node_modules/@types/node/util.d.ts",
+      "../node_modules/@types/node/util/types.d.ts",
+      "../node_modules/@types/node/v8.d.ts",
+      "../node_modules/@types/node/vm.d.ts",
+      "../node_modules/@types/node/wasi.d.ts",
+      "../node_modules/@types/node/worker_threads.d.ts",
+      "../node_modules/@types/node/zlib.d.ts",
+      "../node_modules/@types/ws/index.d.ts",
+      "../node_modules/discord-api-types/gateway/common.d.ts",
+      "../node_modules/discord-api-types/gateway/v9.d.ts",
+      "../node_modules/discord-api-types/globals.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/base.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/boolean.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/channel.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/integer.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/mentionable.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/number.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/role.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/shared.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/string.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommand.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/subcommandgroup.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/_chatinput/user.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/chatinput.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/contextmenu.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/internals.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/_applicationcommands/permissions.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/applicationcommands.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/autocomplete.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/base.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/messagecomponents.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/ping.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/_interactions/responses.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/application.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/auditlog.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/channel.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/emoji.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/gateway.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/guild.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/guildscheduledevent.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/index.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/interactions.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/invite.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/oauth2.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/permissions.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/stageinstance.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/sticker.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/teams.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/template.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/user.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/voice.d.ts",
+      "../node_modules/discord-api-types/payloads/v9/webhook.d.ts",
+      "../node_modules/discord-api-types/rest/common.d.ts",
+      "../node_modules/discord-api-types/rest/v9/auditlog.d.ts",
+      "../node_modules/discord-api-types/rest/v9/channel.d.ts",
+      "../node_modules/discord-api-types/rest/v9/emoji.d.ts",
+      "../node_modules/discord-api-types/rest/v9/gateway.d.ts",
+      "../node_modules/discord-api-types/rest/v9/guild.d.ts",
+      "../node_modules/discord-api-types/rest/v9/guildscheduledevent.d.ts",
+      "../node_modules/discord-api-types/rest/v9/index.d.ts",
+      "../node_modules/discord-api-types/rest/v9/interactions.d.ts",
+      "../node_modules/discord-api-types/rest/v9/invite.d.ts",
+      "../node_modules/discord-api-types/rest/v9/oauth2.d.ts",
+      "../node_modules/discord-api-types/rest/v9/stageinstance.d.ts",
+      "../node_modules/discord-api-types/rest/v9/sticker.d.ts",
+      "../node_modules/discord-api-types/rest/v9/template.d.ts",
+      "../node_modules/discord-api-types/rest/v9/user.d.ts",
+      "../node_modules/discord-api-types/rest/v9/voice.d.ts",
+      "../node_modules/discord-api-types/rest/v9/webhook.d.ts",
+      "../node_modules/discord-api-types/rpc/v9.d.ts",
+      "../node_modules/discord-api-types/utils/internals.d.ts",
+      "../node_modules/discord-api-types/utils/v9.d.ts",
+      "../node_modules/discord-api-types/v9.d.ts",
+      "../node_modules/discord.js/typings/enums.d.ts",
+      "../node_modules/discord.js/typings/index.d.ts",
+      "../node_modules/discord.js/typings/rawdatatypes.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "../node_modules/typescript/lib/lib.es2019.d.ts",
+      "../node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.promise.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.string.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.weakref.d.ts",
+      "../node_modules/zod/lib/external.d.ts",
+      "../node_modules/zod/lib/helpers/errorutil.d.ts",
+      "../node_modules/zod/lib/helpers/parseutil.d.ts",
+      "../node_modules/zod/lib/helpers/partialutil.d.ts",
+      "../node_modules/zod/lib/helpers/util.d.ts",
+      "../node_modules/zod/lib/index.d.ts",
+      "../node_modules/zod/lib/types.d.ts",
+      "../node_modules/zod/lib/zoderror.d.ts",
+      "../src/index.ts",
+      "../src/types/buttonoption.ts"
+    ]
+  },
+  "version": "4.2.4"
+}

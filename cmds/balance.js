@@ -6,16 +6,26 @@ const userExample = {
   lastClaim: null,
   lastDaily: null,
   arrows: 0,
-  reqArrows: 0
+  reqArrows: 0,
+  stands: []
 }
 
 balance = msg => {
-  userDB.get(msg.author.id).then( user => {
+  const target = msg.mentions.users.first() || msg.author;
+  userDB.get(target.id).then( user => {
     if(!user || user.length < 1){
-      userDB.set(msg.author.id, userExample)
-      msg.channel.send(`Your total balance is **0 ⭐ stardust ⭐** 😯`)
+      userDB.set(target.id, userExample)
+      if(target == msg.author){
+        msg.channel.send(`Your total balance is **0 ⭐ stardust ⭐** 😯`)
+      } else {
+        msg.channel.send(`<@${target.id}>'s total balance is **0 ⭐ stardust ⭐** 😯`)
+      }
     } else {
-      msg.channel.send(`Your total balance is **${user.stardust} ⭐ stardust ⭐**`)
+      if(target == msg.author){
+        msg.channel.send(`Your total balance is **${user.stardust} ⭐ stardust ⭐**`)
+      } else {
+        msg.channel.send(`<@${target.id}>'s total balance is **${user.stardust} ⭐ stardust ⭐**`)
+      }
     }
   })
 }

@@ -6,12 +6,18 @@ const userExample = {
   lastClaim: null,
   lastDaily: null,
   arrows: 0,
-  reqArrows: 0
+  reqArrows: 0,
+  stands: []
 }
 
 balance = msg => {
-  userDB.set(msg.author.id, userExample)
-  msg.channel.send('Your stats have been reset')
+  const target = msg.mentions.users.first() || msg.author;
+  userDB.set(target.id, userExample)
+  if(target == msg.author){
+    msg.channel.send(`Your stats have been reset`)
+  } else {
+    msg.channel.send(`<@${target.id}>'s stats have been reset`)
+  }
 }
 
 module.exports = balance

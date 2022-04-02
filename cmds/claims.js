@@ -6,7 +6,8 @@ const userExampleClaim = {
   lastClaim: Date.now(),
   lastDaily: null,
   arrows: 0,
-  reqArrows: 0
+  reqArrows: 0,
+  stands: []
 }
 
 const userExampleDaily = {
@@ -14,7 +15,8 @@ const userExampleDaily = {
   lastClaim: null,
   lastDaily: Date.now(),
   arrows: 0,
-  reqArrows: 0
+  reqArrows: 0,
+  stands: []
 }
 
 const timeout = 10800000 //ms in 3 hs
@@ -28,7 +30,6 @@ claim = msg => {
     } else if(user.lastClaim == null || (Date.now() + timeout - user.lastClaim) <= 0){
       user.stardust += 500
       user.lastClaim = Date.now()
-      console.log(user)
       userDB.set(msg.author.id, user)
       msg.channel.send('You earned **500 ⭐ stardust ⭐**')
     } else {

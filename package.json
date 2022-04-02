@@ -19,6 +19,11 @@
   "homepage": "https://github.com/ValenTinoDust/Silver-Chariot#readme",
   "dependencies": {
     "@replit/database": "^2.0.1",
-    "discord.js": "^13.6.0"
+    "discord.js": "^13.6.0",
+    "discord.js-pagination": "^1.0.3",
+    "discordjs-button-embed-pagination": "^4.0.2",
+    "discordjs-button-pagination": "^1.0.7",
+    "mongoose": "^6.2.9",
+    "reconlx": "^2.5.6"
   }
 }

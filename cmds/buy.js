@@ -6,7 +6,8 @@ const userExample = {
   lastClaim: null,
   lastDaily: null,
   arrows: 0,
-  reqArrows: 0
+  reqArrows: 0,
+  stands: []
 }
 
 const prices = {
