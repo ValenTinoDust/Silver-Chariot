@@ -1,0 +1,24 @@
+{
+  "name": "silver-chariot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValenTinoDust/Silver-Chariot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValenTinoDust/Silver-Chariot/issues"
+  },
+  "homepage": "https://github.com/ValenTinoDust/Silver-Chariot#readme",
+  "dependencies": {
+    "@replit/database": "^2.0.1",
+    "discord.js": "^13.6.0"
+  }
+}
