@@ -5,6 +5,7 @@ const userExample = {
   stardust: 0,
   lastClaim: null,
   lastDaily: null,
+  lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
   stands: []
@@ -17,6 +18,8 @@ give = (msg, args) => {
       userDB.set(msg.author.id, userExample)
       msg.channel.send(`You do not have anything to give 😯`)
     } else {
+      if(!msg.mentions.users.first()) return msg.channel.send("You must tag someone")
+      if(msg.mentions.users.first().id == msg.author.id) return msg.channel.send("You cannot give to yourself")
       switch(args[1]){
         case 'arr':
         case 'arrow':
@@ -41,8 +44,6 @@ give = (msg, args) => {
 
 function stardust(msg, user, quantity){
   if(quantity < 1) return msg.channel.send("You must specify a correct amount")
-  if(!msg.mentions.users.first()) return msg.channel.send("You must tag someone")
-  if(msg.mentions.users.first().id == msg.author.id) return msg.channel.send("You cannot give to yourself")
   if(user.stardust < quantity) return msg.channel.send("You do not have enough **⭐Stardust⭐**")
   userDB.get(msg.mentions.users.first().id).then( target => {
     if(!target) target = userExample
@@ -56,8 +57,6 @@ function stardust(msg, user, quantity){
 
 function arrow(msg, user, quantity){
   if(quantity < 1) return msg.channel.send("You must specify a correct amount")
-  if(!msg.mentions.users.first()) return msg.channel.send("You must tag someone")
-  if(msg.mentions.users.first().id == msg.author.id) return msg.channel.send("You cannot give to yourself")
   if(user.arrows < quantity) return msg.channel.send(`You do not have enough **arrows**`)
   userDB.get(msg.mentions.users.first().id).then( target => {
     if(!target) target = userExample
@@ -71,8 +70,6 @@ function arrow(msg, user, quantity){
 
 function reqArrow(msg, user, quantity){
   if(quantity < 1) return msg.channel.send("You must specify a correct amount")
-  if(!msg.mentions.users.first()) return msg.channel.send("You must tag someone")
-  if(msg.mentions.users.first().id == msg.author.id) return msg.channel.send("You cannot give to yourself")
   if(user.reqArrows < quantity) return msg.channel.send(`You do not have enough **requiem arrows**`)
   userDB.get(msg.mentions.users.first().id).then( target => {
     if(!target) target = userExample
@@ -86,13 +83,10 @@ function reqArrow(msg, user, quantity){
 
 function stand(msg, user, args){
   if(user.stands.length < 1) return msg.channel.send("You do not have any stands to give 😯")
-  if(!msg.mentions.users.first()) return msg.channel.send("You must tag someone")
-  if(msg.mentions.users.first().id == msg.author.id) return msg.channel.send("You cannot give to yourself")
   args.shift()
   args.shift()
   args.pop()
   args = args.join(' ')
-  console.log(args)
   var index = user.stands.map(x => x.name.toLowerCase()).indexOf(args)
   if(index == -1) return msg.channel.send("You do not own that stand or misspelled the name 🤔")
   var stand = user.stands.splice(index, 1)[0]

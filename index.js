@@ -3,15 +3,15 @@ const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Disc
 
 const { claim, daily } = require('./cmds/claims.js')
 const balance = require('./cmds/balance.js')
-const reset = require('./cmds/reset.js')
 const buy = require('./cmds/buy.js')
 const sell = require('./cmds/sell.js')
 const inventory = require('./cmds/inventory.js')
 const use = require("./cmds/use.js")
-const log = require("./cmds/log.js")
 const standlist = require("./cmds/standlist.js")
 const stands = require("./cmds/stands.js")
 const give = require("./cmds/give.js")
+const first = require("./cmds/first.js")
+const { log, reset, master } = require("./cmds/log.js")
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`)
@@ -73,9 +73,14 @@ client.on("messageCreate", msg => {
     case "give":
       give(msg, args)
       break
+    case "f":
+    case "first":
+      first(msg, args)
+      break
+    case "master":
+      master(msg)
+      break
   }
-
-
 })
 
 const mySecret = process.env['TOKEN']

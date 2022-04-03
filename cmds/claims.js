@@ -5,6 +5,7 @@ const userExampleClaim = {
   stardust: 500,
   lastClaim: Date.now(),
   lastDaily: null,
+  lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
   stands: []
@@ -34,7 +35,7 @@ claim = msg => {
       msg.channel.send('You earned **500 ⭐ stardust ⭐**')
     } else {
       timeLeft = msToTime(-Date.now() + user.lastClaim + timeout).slice(1)
-      msg.channel.send(`You have already claimed. Wait **${timeLeft}**`)
+      msg.channel.send(`You have already claimed. Next claim in **${timeLeft}**`)
     }
   })
 }
@@ -50,7 +51,7 @@ daily = msg => {
       userDB.set(msg.author.id, user)
       msg.channel.send('You earned **500 ⭐ stardust ⭐**')
     } else {
-      msg.channel.send(`You have already claimed your daily. Wait **${msToTime(-Date.now() + user.lastDaily + timeoutDaily)}**`)
+      msg.channel.send(`You have already claimed your daily. Next daily in **${msToTime(-Date.now() + user.lastDaily + timeoutDaily)}**`)
     }
   })
 }

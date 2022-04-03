@@ -9,10 +9,13 @@ fs.readFile('/home/runner/Silver-Chariot/stands.json', 'utf8', function (err, da
   stands = JSON.parse(data)
 })
 
+const timeout = 3600000
+
 const userExample = {
   stardust: 0,
   lastClaim: null,
   lastDaily: null,
+  lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
   stands: []
@@ -41,6 +44,7 @@ use = (msg, args) => {
 }
 
 function arrow(msg, user, quantity){
+  if(quantity > 4) quantity = 4
   if(user.arrows < quantity) return msg.channel.send(`You do not have enough arrows 😥`)
   user.arrows -= quantity
   userDB.set(msg.author.id, user)
@@ -51,7 +55,9 @@ function arrow(msg, user, quantity){
 
 function standReaction(msg, quantity){
   var stand = stands[Math.floor(Math.random()*stands.length)]
-  stand.stardust = Math.floor(Math.random() * ((stand.stardust + 500) - (stand.stardust - 500) + 1)) + (stand.stardust - 500)
+  stand.stardust = Math.floor(Math.random() * ((stand.stardust + stand.stardust * 0.25) - (stand.stardust - stand.stardust * 0.25) + 1)) + (stand.stardust - stand.stardust * 0.25)
+  stand.strength = Math.floor(Math.random() * ((stand.strength + stand.strength * 0.25) - (stand.strength - stand.strength * 0.25) + 1)) + (stand.strength - stand.strength * 0.25)
+  stand.defense = Math.floor(Math.random() * ((stand.defense + stand.defense * 0.25) - (stand.defense - stand.strength * 0.25) + 1)) + (stand.defense - stand.defense * 0.25)
   const embed = exampleStand(stand)
   msg.channel.send({embeds: [embed]}).then(embedMessage => {
     embedMessage.react('🏹')
@@ -64,31 +70,19 @@ function standReaction(msg, quantity){
     collector.on('collect', (reaction, target) => {
       if(count < 1){
         userDB.get(target.id).then( user => {
-          if(user.stands){
-            if(user.stands.length > 0){
-              if(user.stands.map( x => x.id == stand.id)[0]) msg.channel.send("You already own this stand")
-              else {
-                count++
-                user.stands.push(stand)
-                userDB.set(target.id, user)
-                collector.stop()
-                return msg.channel.send(`<@${target.id}> has been pierced by an arrow and obtained **${stand.name}**!`)
-              }
-            } else {
-              count++
-              user.stands.push(stand)
-              userDB.set(target.id, user)
-              collector.stop()
-              return msg.channel.send(`<@${target.id}> has been pierced by an arrow and obtained **${stand.name}**!`)
-            }
-          } else {
-            count++
-            user = userExample
-            user.stands.push(stand)
-            userDB.set(target.id, user)
-            collector.stop()
-            return msg.channel.send(`<@${target.id}> has been pierced by an arrow and obtained **${stand.name}**!`)
+          if(!user) user = userExample
+          if(user.lastStClaim != null || !(-Date.now() + timeout + user.lastStClaim) < 0){
+            timeLeft = msToTime(-Date.now() + user.lastStClaim + timeout)
+            return msg.channel.send(`You have already claimed. Next stand claim in **${timeLeft}**`)
+          if(user.stands.length > 0 && user.stands.map( x => x.id == stand.id)[0]) return msg.channel.send("You already own this stand")
           }
+          count++
+          user.lastStClaim = Date.now()
+          user.stands.push(stand)
+          userDB.set(target.id, user)
+          collector.stop()
+          return msg.channel.send(`<@${target.id}> has been pierced by an arrow and obtained **${stand.name}**!`)
+          
         })
       }
     })
@@ -101,6 +95,17 @@ function exampleStand(stand){
 	.setTitle(`${stand.name}`)
 	.setDescription(`Stardust: **${stand.stardust}**`)
 	.setImage(stand.imgURL)
+}
+
+function msToTime(milliseconds) {
+  let seconds = Math.floor(milliseconds / 1000);
+  let minutes = Math.floor(seconds / 60);
+  let hours = Math.floor(minutes / 60);
+  seconds = seconds % 60;
+  minutes = seconds >= 30 ? minutes + 1 : minutes;
+  hours = hours % 24;
+
+  return minutes + " minutes "
 }
 
 module.exports = use

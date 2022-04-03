@@ -5,6 +5,7 @@ const userExample = {
   stardust: 0,
   lastClaim: null,
   lastDaily: null,
+  lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
   stands: []
