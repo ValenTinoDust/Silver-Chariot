@@ -11,7 +11,7 @@ const userExample = {
 }
 
 balance = msg => {
-  const target = msg.mentions.users.first() || msg.author;
+  const target = msg.mentions.users.first() || msg.author
   userDB.get(target.id).then( user => {
     if(!user || user.length < 1){
       userDB.set(target.id, userExample)

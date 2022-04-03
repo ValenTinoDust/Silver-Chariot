@@ -21,6 +21,7 @@ const userExample = {
 use = (msg, args) => {
   userDB.get(msg.author.id).then( user => {
     if(!user || user.length < 1){
+      user = userExample
       userDB.set(msg.author.id, userExample)
       msg.channel.send(`You do not have any items 😯`)
     } else {
@@ -54,20 +55,18 @@ function standReaction(msg, quantity){
   const embed = exampleStand(stand)
   msg.channel.send({embeds: [embed]}).then(embedMessage => {
     embedMessage.react('🏹')
-    var target
     const filter = (reaction, user) => {
       if(user.id == 959517108281180230) return false
-      target = user
       return reaction.emoji.name === '🏹'
     }
     const collector = embedMessage.createReactionCollector( { filter: filter }, { max: 1, time: 60000 })
     var count = 0
-    collector.on('collect', (reaction, reactionCollector) => {
+    collector.on('collect', (reaction, target) => {
       if(count < 1){
         userDB.get(target.id).then( user => {
           if(user.stands){
             if(user.stands.length > 0){
-              if(!user.stands.map( x => x.id == stand.id)) msg.channel.send("You already own this stand")
+              if(user.stands.map( x => x.id == stand.id)[0]) msg.channel.send("You already own this stand")
               else {
                 count++
                 user.stands.push(stand)

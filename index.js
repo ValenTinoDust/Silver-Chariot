@@ -10,6 +10,8 @@ const inventory = require('./cmds/inventory.js')
 const use = require("./cmds/use.js")
 const log = require("./cmds/log.js")
 const standlist = require("./cmds/standlist.js")
+const stands = require("./cmds/stands.js")
+const give = require("./cmds/give.js")
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`)
@@ -63,6 +65,13 @@ client.on("messageCreate", msg => {
     case "sl":
     case "standlist":
       standlist(msg)
+      break
+    case "st":
+    case "stands":
+      stands(msg)
+      break
+    case "give":
+      give(msg, args)
       break
   }
 
