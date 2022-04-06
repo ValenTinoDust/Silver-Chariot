@@ -3,16 +3,15 @@ const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Disc
 
 const { claim, daily } = require('./cmds/claims.js')
 const balance = require('./cmds/balance.js')
-const buy = require('./cmds/buy.js')
-const sell = require('./cmds/sell.js')
+const { buy, sell, shop } = require('./cmds/shop.js')
 const inventory = require('./cmds/inventory.js')
 const use = require("./cmds/use.js")
 const standlist = require("./cmds/standlist.js")
 const stands = require("./cmds/stands.js")
 const give = require("./cmds/give.js")
 const first = require("./cmds/first.js")
-const { log, reset, master } = require("./cmds/log.js")
-const { roulette } = require("./cmds/casino.js")
+const { log, reset, master, cooldown } = require("./cmds/log.js")
+const { casino, roulette } = require("./cmds/casino.js")
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`)
@@ -68,6 +67,7 @@ client.on("messageCreate", msg => {
       standlist(msg)
       break
     case "st":
+    case "stand":
     case "stands":
       stands(msg)
       break
@@ -83,6 +83,15 @@ client.on("messageCreate", msg => {
       break
     case "roulette":
     roulette(msg, args)
+      break
+    case "casino":
+    casino(msg, args)
+      break
+    case "shop":
+    shop(msg, args)
+      break
+    case "cooldown":
+      cooldown(msg)
       break
   }
 })

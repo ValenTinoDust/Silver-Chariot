@@ -161,4 +161,14 @@ function exampleRoulette(number, amount, target){
 	//.setImage("https://pngimg.com/uploads/roulette/roulette_PNG41.png")
 }
 
-module.exports = { roulette }
+casino = msg => {
+  return msg.channel.send({ embeds: [casinoEmbed], files: ['/home/runner/Silver-Chariot/images/table.jpg'] })
+}
+
+const casinoEmbed = new MessageEmbed()
+.setColor('#8b0000')
+.setTitle(`Casino`)
+.setDescription("Commands:\n**roulette <bet> <amount>**\n")
+.setImage('attachment://table.jpg')
+
+module.exports = { casino, roulette }

@@ -47,16 +47,16 @@ function arrow(msg, user, quantity){
   if(user.arrows < quantity) return msg.channel.send(`You do not have enough arrows 😥`)
   user.arrows -= quantity
   userDB.set(msg.author.id, user)
-  for (let index = 0; index < quantity; index++) {
+  for (var index = 0; index < quantity; index++) {
     standReaction(msg, quantity)
   }
 }
 
-function standReaction(msg, quantity){
-  var stand = stands[Math.floor(Math.random()*stands.length)]
-  stand.stardust = Math.floor(Math.random() * ((stand.stardust + stand.stardust * 0.25) - (stand.stardust - stand.stardust * 0.25) + 1)) + (stand.stardust - stand.stardust * 0.25)
-  stand.strength = Math.floor(Math.random() * ((stand.strength + stand.strength * 0.25) - (stand.strength - stand.strength * 0.25) + 1)) + (stand.strength - stand.strength * 0.25)
-  stand.defense = Math.floor(Math.random() * ((stand.defense + stand.defense * 0.25) - (stand.defense - stand.strength * 0.25) + 1)) + (stand.defense - stand.defense * 0.25)
+standReaction = (msg, quantity) => {
+  var stand = {...stands[Math.floor(Math.random()*stands.length)]}
+  stand.stardust = randomInt(stand.stardust * 1.25, stand.stardust * 0.75)
+  stand.strength = randomInt(stand.strength * 1.25, stand.strength * 0.75)
+  stand.defense = randomInt(stand.defense * 1.25, stand.defense * 0.75)
   const embed = exampleStand(stand)
   msg.channel.send({embeds: [embed]}).then(embedMessage => {
     embedMessage.react('🏹')
@@ -70,11 +70,12 @@ function standReaction(msg, quantity){
       if(count < 1){
         userDB.get(target.id).then( user => {
           if(!user) user = userExample
-          if(user.lastStClaim != null || !(-Date.now() + timeout + user.lastStClaim) < 0){
+          if(user.lastStClaim != null|| !(-Date.now() + timeout + user.lastStClaim) < 0){
             timeLeft = msToTime(-Date.now() + user.lastStClaim + timeout)
             return msg.channel.send(`You have already claimed. Next stand claim in **${timeLeft}**`)
           if(user.stands.length > 0 && user.stands.map( x => x.id == stand.id)[0]) return msg.channel.send("You already own this stand")
           }
+          if(user.lastStClaim == null && user.stands.length > 0 && user.stands.map( x => x.id == stand.id)[0]) return msg.channel.send("You already own this stand")
           count++
           user.lastStClaim = Date.now()
           user.stands.push(stand)
@@ -105,6 +106,13 @@ function msToTime(milliseconds) {
   hours = hours % 24;
 
   return minutes + " minutes "
+}
+
+function randomInt(min, max) { // min and max included 
+  let num = Math.floor(
+    Math.random() * (max - min + 1) + min
+  )
+  return num
 }
 
 module.exports = use

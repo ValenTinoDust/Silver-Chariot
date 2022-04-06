@@ -53,4 +53,17 @@ master = msg => {
   })
 }
 
-module.exports = { log: userLog, reset: resetUser, master: master}
+resetUserCooldown = msg => {
+  if(!(msg.author.id == "932282133962182696")) return msg.channel.send("❌ **You are not authorised** ❌")
+  target = msg.mentions.users.first() ? msg.mentions.users.first() : msg.author
+  userDB.get(target.id).then(user => {
+    if(!user) return msg.channel.send(`<@${target.id}>'s cooldowns have been reset`)
+    user.lastClaim = null
+    user.lastDaily = null
+    user.lastStClaim = null
+    userDB.set(target.id, user)
+    return msg.channel.send(`<@${target.id}>'s cooldowns have been reset`)
+  })
+}
+
+module.exports = { log: userLog, reset: resetUser, master: master, cooldown: resetUserCooldown}

@@ -31,6 +31,7 @@ userStands = msg => {
     ]
     index = 0
     msg.channel.send({embeds: [pages[index]]}).then(embedMessage => {
+      if(pages.length == 1) return
       embedMessage.react("◀")
       embedMessage.react("▶")
       const filter = (reaction, user) => {
