@@ -22,14 +22,16 @@ sell = (msg, args) => {
       userDB.set(msg.author.id, userExample)
       msg.channel.send(`You do not have anything to sell 😯`)
     } else {
+      const quantity = isNaN(args[2]) ? 1 : parseInt(args[2])
+      if(quantity <= 0) return msg.channel.send("You must enter a correct amount to sell!")
       switch(args[1]){
         case 'arr':
         case 'arrow':
-          arrow(msg, user, isNaN(args[2]) ? 1 : parseInt(args[2]))
+          arrow(msg, user, quantity)
           break
         case 'req':
         case 'requiem':
-          reqArrow(msg, user, isNaN(args[2]) ? 1 : parseInt(args[2]))
+          reqArrow(msg, user, quantity)
           break
         case "st":
         case "stand":
@@ -44,7 +46,7 @@ sell = (msg, args) => {
   })
 }
 
-function arrow(msg, quantity){
+function arrow(msg, user, quantity){
   if(user.arrows < quantity) return msg.channel.send(`You do not have that many arrows 😥`)
   user.arrows -= quantity
   user.stardust += prices.arrow * quantity

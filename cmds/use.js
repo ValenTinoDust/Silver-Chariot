@@ -24,7 +24,6 @@ const userExample = {
 use = (msg, args) => {
   userDB.get(msg.author.id).then( user => {
     if(!user || user.length < 1){
-      user = userExample
       userDB.set(msg.author.id, userExample)
       msg.channel.send(`You do not have any items 😯`)
     } else {

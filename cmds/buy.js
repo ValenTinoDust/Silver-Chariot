@@ -22,14 +22,16 @@ buy = (msg, args) => {
       userDB.set(msg.author.id, userExample)
       msg.channel.send(`You do not have any stardust 😯`)
     } else {
+      const quantity = isNaN(args[2]) ? 1 : parseInt(args[2])
+      if(quantity <= 0) return msg.channel.send("You must enter a correct amount to buy!")
       switch(args[1]){
         case 'arr':
         case 'arrow':
-          arrow(msg, user, isNaN(args[2]) ? 1 : parseInt(args[2]))
+          arrow(msg, user, quantity)
           break
         case 'req':
         case 'requiem':
-          reqArrow(msg, user, isNaN(args[2]) ? 1 : parseInt(args[2]))
+          reqArrow(msg, user, quantity)
           break
         default: msg.channel.send("Check shop for items you can buy")
       }

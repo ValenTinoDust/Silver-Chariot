@@ -12,6 +12,7 @@ const stands = require("./cmds/stands.js")
 const give = require("./cmds/give.js")
 const first = require("./cmds/first.js")
 const { log, reset, master } = require("./cmds/log.js")
+const { roulette } = require("./cmds/casino.js")
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`)
@@ -79,6 +80,9 @@ client.on("messageCreate", msg => {
       break
     case "master":
       master(msg)
+      break
+    case "roulette":
+    roulette(msg, args)
       break
   }
 })
