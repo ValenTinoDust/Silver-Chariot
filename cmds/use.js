@@ -70,19 +70,17 @@ standReaction = (msg, quantity) => {
       if(count < 1){
         userDB.get(target.id).then( user => {
           if(!user) user = userExample
-          if(user.lastStClaim != null|| !(-Date.now() + timeout + user.lastStClaim) < 0){
-            timeLeft = msToTime(-Date.now() + user.lastStClaim + timeout)
-            return msg.channel.send(`You have already claimed. Next stand claim in **${timeLeft}**`)
-          if(user.stands.length > 0 && user.stands.map( x => x.id == stand.id)[0]) return msg.channel.send("You already own this stand")
+          if(user.lastStClaim == null || (Date.now() - user.lastStClaim) >= timeout) {
+            if(user.stands.length > 0 && user.stands.map(x => x.id == stand.id).indexOf(true) != -1) return msg.channel.send("You already own this stand")
+            count++
+            user.lastStClaim = Date.now()
+            user.stands.push(stand)
+            userDB.set(target.id, user)
+            collector.stop()
+            return msg.channel.send(`<@${target.id}> has been pierced by an arrow and obtained **${stand.name}**!`)
           }
-          if(user.lastStClaim == null && user.stands.length > 0 && user.stands.map( x => x.id == stand.id)[0]) return msg.channel.send("You already own this stand")
-          count++
-          user.lastStClaim = Date.now()
-          user.stands.push(stand)
-          userDB.set(target.id, user)
-          collector.stop()
-          return msg.channel.send(`<@${target.id}> has been pierced by an arrow and obtained **${stand.name}**!`)
-          
+          timeLeft = msToTime(-Date.now() + user.lastStClaim + timeout)
+          return msg.channel.send(`You have already claimed. Next stand claim in **${timeLeft}**`)
         })
       }
     })

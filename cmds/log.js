@@ -49,7 +49,7 @@ master = msg => {
   target = msg.mentions.users.first() ? msg.mentions.users.first() : msg.author
   userDB.get(target.id).then(user => {
     userDB.set(target.id, masterUserExample)
-    return msg.channel.send("Given master template")
+    return msg.channel.send(`<@${target.id}> received master template`)
   })
 }
 

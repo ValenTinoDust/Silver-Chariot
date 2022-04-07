@@ -20,6 +20,8 @@ client.on("ready", () => {
 const prefix = "sv!"
 
 client.on("messageCreate", msg => {
+  if (msg.author.bot) return
+  if (msg.channel.type == 'dm') return
   args = msg.content.toLowerCase()
   if (args.length <= prefix.length) return //prevent empty cmds from entering switch case
   if (!args.startsWith(prefix)) return //if prefix is met allow into switch case
