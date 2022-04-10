@@ -9,7 +9,8 @@ const userExample = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
-  stands: []
+  stands: [],
+  bussy: false
 }
 
 const multiplier = {
@@ -46,6 +47,7 @@ roulette = (msg, args) => {
       const amount = isNaN(args[2]) ? 0 : parseInt(args[2])
       if(amount <= 0) return msg.channel.send("You have to pick a bet and amount, **roulette <bet> <amount>**")
       if(user.stardust < amount) return msg.channel.send("You do not have enough **⭐ stardust ⭐** 😥")
+      if(user.bussy) return msg.channel.send("You are bussy on another transaction")
       user.stardust -= amount
       userDB.set(msg.author.id, user)
       switch(args[1]){

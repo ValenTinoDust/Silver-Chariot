@@ -8,7 +8,8 @@ const userExampleClaim = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
-  stands: []
+  stands: [],
+  bussy: false
 }
 
 const userExampleDaily = {
@@ -17,7 +18,8 @@ const userExampleDaily = {
   lastDaily: Date.now(),
   arrows: 0,
   reqArrows: 0,
-  stands: []
+  stands: [],
+  bussy: false
 }
 
 const timeout = 10800000 //ms in 3 hs
@@ -28,7 +30,8 @@ claim = msg => {
     if(!user || user.length < 1){
       userDB.set(msg.author.id, userExampleClaim)
       msg.channel.send('You earned **500 ⭐ stardust ⭐**')
-    } else if(user.lastClaim == null || (Date.now() + timeout - user.lastClaim) <= 0){
+    } else if(user.lastClaim == null || (-Date.now() + timeout + user.lastClaim) <= 0){
+      if(user.bussy) return msg.channel.send("You are bussy on another transaction")
       user.stardust += 500
       user.lastClaim = Date.now()
       userDB.set(msg.author.id, user)
@@ -45,7 +48,8 @@ daily = msg => {
     if(!user || user.length < 1){
       userDB.set(msg.author.id, userExampleDaily)
       msg.channel.send('You earned **500 ⭐ stardust ⭐**')
-    } else if(user.lastDaily == null || (Date.now() + timeoutDaily - user.lastDaily) <= 0){
+    } else if(user.lastDaily == null || (-Date.now() + timeoutDaily + user.lastDaily) <= 0){
+      if(user.bussy) return msg.channel.send("You are bussy on another transaction")
       user.stardust += 500
       user.lastDaily = Date.now()
       userDB.set(msg.author.id, user)

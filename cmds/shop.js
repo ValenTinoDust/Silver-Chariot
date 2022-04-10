@@ -9,7 +9,8 @@ const userExample = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
-  stands: []
+  stands: [],
+  bussy: false
 }
 
 const buyPrices = {
@@ -18,21 +19,21 @@ const buyPrices = {
 }
 
 buy = (msg, args) => {
-  userDB.get(msg.author.id).then( user => {
-    if(!user || user.length < 1){
+  userDB.get(msg.author.id).then(user => {
+    if (!user || user.length < 1) {
       userDB.set(msg.author.id, userExample)
       msg.channel.send(`You do not have any stardust 😯`)
     } else {
       const quantity = isNaN(args[2]) ? 1 : parseInt(args[2])
-      if(quantity <= 0) return msg.channel.send("You must enter a correct amount to buy!")
-      switch(args[1]){
+      if (quantity <= 0) return msg.channel.send("You must enter a correct amount to buy!")
+      switch (args[1]) {
         case 'arr':
         case 'arrow':
-          arrow(msg, user, quantity)
+          buyArrow(msg, user, quantity)
           break
         case 'req':
         case 'requiem':
-          reqArrow(msg, user, quantity)
+          buyReqArrow(msg, user, quantity)
           break
         default: msg.channel.send("Check shop for items you can buy")
       }
@@ -40,16 +41,17 @@ buy = (msg, args) => {
   })
 }
 
-function arrow(msg, user, quantity){
-  if(user.stardust < buyPrices.arrow * quantity) return msg.channel.send(`You need **${buyPrices.arrow * quantity} ⭐stardust⭐** to buy this 😥`)
+function buyArrow(msg, user, quantity) {
+  if (user.stardust < buyPrices.arrow * quantity) return msg.channel.send(`You need **${buyPrices.arrow * quantity} ⭐stardust⭐** to buy this 😥`)
+  if(user.bussy) return msg.channel.send("You are bussy on another transaction")
   user.stardust -= buyPrices.arrow * quantity
   user.arrows += quantity
   userDB.set(msg.author.id, user)
   msg.channel.send(`Succesfully purchased ${quantity} arrow${quantity == 1 ? "" : "s"}✌`)
 }
 
-function reqArrow(msg, user, quantity){
-  if(user.stardust < buyPrices.reqArrow * quantity) return msg.channel.send(`You need **${buyPrices.reqArrow * quantity} ⭐stardust⭐** to buy this 😥`)
+function buyReqArrow(msg, user, quantity) {
+  if (user.stardust < buyPrices.reqArrow * quantity) return msg.channel.send(`You need **${buyPrices.reqArrow * quantity} ⭐stardust⭐** to buy this 😥`)
   user.stardust -= buyPrices.reqArrow * quantity
   user.reqArrows += quantity
   userDB.set(msg.author.id, user)
@@ -62,28 +64,28 @@ const sellPrices = {
 }
 
 sell = (msg, args) => {
-  userDB.get(msg.author.id).then( user => {
-    if(!user || user.length < 1){
+  userDB.get(msg.author.id).then(user => {
+    if (!user || user.length < 1) {
       userDB.set(msg.author.id, userExample)
       msg.channel.send(`You do not have anything to sell 😯`)
     } else {
       const quantity = isNaN(args[2]) ? 1 : parseInt(args[2])
-      if(quantity <= 0) return msg.channel.send("You must enter a correct amount to sell!")
-      switch(args[1]){
+      if (quantity <= 0) return msg.channel.send("You must enter a correct amount to sell!")
+      switch (args[1]) {
         case 'arr':
         case 'arrow':
-          arrow(msg, user, quantity)
+          sellArrow(msg, user, quantity)
           break
         case 'req':
         case 'requiem':
-          reqArrow(msg, user, quantity)
+          sellReqArrow(msg, user, quantity)
           break
         case "st":
         case "stand":
           args.shift()
           args.shift()
           console.log(args)
-          stand(msg, user, args)
+          sellStand(msg, user, args)
           break
         default: msg.channel.send("Check shop for items you can sell")
       }
@@ -91,36 +93,33 @@ sell = (msg, args) => {
   })
 }
 
-function arrow(msg, user, quantity){
-  if(user.arrows < quantity) return msg.channel.send(`You do not have that many arrows 😥`)
+function sellArrow(msg, user, quantity) {
+  if (user.arrows < quantity) return msg.channel.send(`You do not have that many arrows 😥`)
   user.arrows -= quantity
   user.stardust += sellPrices.arrow * quantity
   userDB.set(msg.author.id, user)
   msg.channel.send(`Successfully sold ${quantity} arrow${quantity == 1 ? "" : "s"}✌`)
 }
 
-function reqArrow(msg, user, quantity){
-  if(user.reqArrows < quantity) return msg.channel.send(`You do not have that many arrows 😥`)
+function sellReqArrow(msg, user, quantity) {
+  if (user.reqArrows < quantity) return msg.channel.send(`You do not have that many arrows 😥`)
   user.reqArrows -= quantity
   user.stardust += sellPrices.arrow * quantity
   userDB.set(msg.author.id, user)
   msg.channel.send(`Successfully sold ${quantity} requiem arrow${quantity == 1 ? "" : "s"}✌`)
 }
 
-function stand(msg, user, args){
-  if(args.length < 1) return msg.channel.send("You must specify the stand name you are willing to sell")
-  if(user.stands.length < 1) return msg.channel.send("You do not have any stands 😲")
-  args = args.join(' ') 
+function sellStand(msg, user, args) {
+  if (args.length < 1) return msg.channel.send("You must specify the stand name you are willing to sell")
+  if (user.stands.length < 1) return msg.channel.send("You do not have any stands 😲")
+  args = args.join(' ')
   var index = user.stands.map(x => x.name.toLowerCase()).indexOf(args)
-  if(index != -1){
-    var stand = user.stands.splice(index, 1)[0]
-    user.stardust += stand.stardust
-    console.log(stand)
-    userDB.set(msg.author.id, user)
-    return msg.channel.send(`Successfully sold **${stand.name}** for **${stand.stardust} ⭐Stardust⭐**`)
-  } else {
-    return msg.channel.send("You do not own that stand or misspelled the name 🤔")
-  }
+  if (index == -1) return msg.channel.send("You do not own that stand or misspelled the name 🤔")
+  if(user.bussy) return msg.channel.send("You are bussy on another transaction")
+  var stand = user.stands.splice(index, 1)[0]
+  user.stardust += stand.stardust
+  userDB.set(msg.author.id, user)
+  return msg.channel.send(`Successfully sold **${stand.name}** for **${stand.stardust} ⭐Stardust⭐**`)
 }
 
 shop = msg => {
@@ -128,9 +127,9 @@ shop = msg => {
 }
 
 const shopEmbed = new MessageEmbed()
-.setColor('#ffa701')
-.setTitle(`Shop`)
-.setDescription("Commands:\n**buy <item> <amount>**\n**sell <item> <amount>**\n**sell stand <stand name>**\n")
-.setImage('attachment://bags.png')
+  .setColor('#ffa701')
+  .setTitle(`Shop`)
+  .setDescription("Commands:\n**buy <item> <amount>**\n**sell <item> <amount>**\n**sell stand <stand name>**\n")
+  .setImage('attachment://bags.png')
 
 module.exports = { sell, buy, shop }

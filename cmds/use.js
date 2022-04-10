@@ -18,7 +18,8 @@ const userExample = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
-  stands: []
+  stands: [],
+  bussy: false
 }
 
 use = (msg, args) => {
@@ -52,7 +53,7 @@ function arrow(msg, user, quantity){
   }
 }
 
-standReaction = (msg, quantity) => {
+function standReaction(msg, quantity){
   var stand = {...stands[Math.floor(Math.random()*stands.length)]}
   stand.stardust = randomInt(stand.stardust * 1.25, stand.stardust * 0.75)
   stand.strength = randomInt(stand.strength * 1.25, stand.strength * 0.75)

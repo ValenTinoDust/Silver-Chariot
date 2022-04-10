@@ -8,7 +8,8 @@ const userExample = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
-  stands: []
+  stands: [],
+  bussy: false
 }
 
 give = (msg, args) => {
@@ -20,6 +21,7 @@ give = (msg, args) => {
     } else {
       if(!msg.mentions.users.first()) return msg.channel.send("You must tag someone")
       if(msg.mentions.users.first().id == msg.author.id) return msg.channel.send("You cannot give to yourself")
+      if(user.bussy) return msg.channel.send("You are bussy on another transaction")
       switch(args[1]){
         case 'arr':
         case 'arrow':

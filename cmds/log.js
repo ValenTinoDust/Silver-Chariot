@@ -8,7 +8,8 @@ const userExample = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
-  stands: []
+  stands: [],
+  bussy: false
 }
 
 const masterUserExample = {
@@ -18,7 +19,8 @@ const masterUserExample = {
   lastStClaim: null,
   arrows: 999999999999999,
   reqArrows: 999999999999999,
-  stands: []
+  stands: [],
+  bussy: false
 }
 
 userLog = (msg, args) => {

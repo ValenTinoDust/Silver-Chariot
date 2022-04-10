@@ -12,6 +12,7 @@ const give = require("./cmds/give.js")
 const first = require("./cmds/first.js")
 const { log, reset, master, cooldown } = require("./cmds/log.js")
 const { casino, roulette } = require("./cmds/casino.js")
+const trade = require("./cmds/trade.js")
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`)
@@ -94,6 +95,9 @@ client.on("messageCreate", msg => {
       break
     case "cooldown":
       cooldown(msg)
+      break
+    case "trade":
+      trade(msg, args)
       break
   }
 })

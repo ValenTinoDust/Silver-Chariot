@@ -8,7 +8,7 @@ first = (msg, args) => {
     args = args.join(' ')
     var index = user.stands.map(x => x.name.toLowerCase()).indexOf(args)
     if(index == -1) return msg.channel.send("You do not own that stand or misspelled the name 🤔")
-    console.log(user.stands)
+    if(user.bussy) return msg.channel.send("You are bussy on another transaction")
     stand = user.stands.slice(index)[0]
     user.stands.unshift(stand)
     console.log(user.stands)
