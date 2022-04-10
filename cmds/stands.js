@@ -9,6 +9,8 @@ const userExample = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
+  "h-discs": 0,
+  "atk-discs": 0,
   stands: [],
   bussy: false
 }
@@ -63,6 +65,10 @@ function exampleStand(stand){
 	.setColor('#FFBF00')
 	.setTitle(`${stand.name}`)
 	.setDescription(`Stardust: **${stand.stardust}**`)
+  .addFields(
+	{ name: 'Health:', value: `${stand.health}`, inline: true },
+	{ name: 'Strength / ATK:', value: `${stand.strength}`, inline: true },
+	)
 	.setImage(stand.imgURL)
 }
 

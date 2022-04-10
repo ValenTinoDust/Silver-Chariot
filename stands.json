@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Star Platinum",
     "strength": 1000,
-    "defense": 600,
+    "health": 600,
     "stardust": 2000,
     "imgURL": "https://static.jojowiki.com/images/6/6a/latest/20200102231412/StarPlatinumMangaAv.png"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "The World",
     "strength": 1000,
-    "defense": 600,
+    "health": 600,
     "stardust": 2000,
     "imgURL": "https://static.jojowiki.com/images/c/cb/latest/20191015212934/TheWorldMangaAv.png"
   }

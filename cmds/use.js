@@ -18,6 +18,8 @@ const userExample = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
+  "h-discs": 0,
+  "atk-discs": 0,
   stands: [],
   bussy: false
 }
@@ -28,14 +30,22 @@ use = (msg, args) => {
       userDB.set(msg.author.id, userExample)
       msg.channel.send(`You do not have any items 😯`)
     } else {
+      if(user.bussy) return msg.channel.send("You are bussy on another transaction")
+      const quantity = isNaN(args[2]) ? 1 : parseInt(args[2])
       switch(args[1]){
         case 'arr':
         case 'arrow':
-          arrow(msg, user, isNaN(args[2]) ? 1 : parseInt(args[2]))
+          arrow(msg, user, quantity)
           break
         case 'req':
         case 'requiem':
-          reqArrow(msg, user, isNaN(args[2]) ? 1 : parseInt(args[2]))
+          reqArrow(msg, user, quantity)
+          break
+        case 'h-disc':
+          healthDisc(msg, user, quantity)
+          break
+        case 'atk-disc':
+          AtkDisc(msg, user, quantity)
           break
         default: msg.channel.send("You have to pick an item, **use <item> <quantity>**")
       }
@@ -57,7 +67,7 @@ function standReaction(msg, quantity){
   var stand = {...stands[Math.floor(Math.random()*stands.length)]}
   stand.stardust = randomInt(stand.stardust * 1.25, stand.stardust * 0.75)
   stand.strength = randomInt(stand.strength * 1.25, stand.strength * 0.75)
-  stand.defense = randomInt(stand.defense * 1.25, stand.defense * 0.75)
+  stand.health = randomInt(stand.health * 1.25, stand.health * 0.75)
   const embed = exampleStand(stand)
   msg.channel.send({embeds: [embed]}).then(embedMessage => {
     embedMessage.react('🏹')
@@ -84,6 +94,68 @@ function standReaction(msg, quantity){
           return msg.channel.send(`You have already claimed. Next stand claim in **${timeLeft}**`)
         })
       }
+    })
+  })
+}
+
+function healthDisc(msg, user, quantity){
+  if(user["h-discs"] < quantity) return msg.channel.send(`You do not have enough health discs 😥`)
+  user["h-discs"] -= quantity
+  user.bussy = true
+  userDB.set(msg.author.id, user)
+  msg.channel.send(`Name the stand you want to give the disc${quantity == 1 ? "" : "s"} to`)
+  var discsUsed = false
+  const filter = m => m.author.id == msg.author.id
+  const collector = msg.channel.createMessageCollector({ filter: filter, time: 55000 })
+  collector.on('collect', m => {
+    userDB.get(msg.author.id).then( user => {
+      index = user.stands.map(x => x.name.toLowerCase()).indexOf(m.content.toLowerCase())
+      if(index == -1) return msg.channel.send("You do not own that stand or misspelled the name")
+      user.stands[index].health += 20 * quantity
+      user.bussy = false
+      userDB.set(msg.author.id, user)
+      discsUsed = true
+      msg.channel.send(`**${user.stands[index].name}** has received **${quantity}** disc${quantity == 1 ? "" : "s"} 🤩`)
+      collector.stop()
+    })
+  })
+  collector.on('end', event => {
+    userDB.get(msg.author.id).then( user => {
+      if(discsUsed) return
+      user["h-discs"] += quantity
+      userDB.set(msg.author.id, user)
+      return msg.channel.send("Your non used discs have been refunded")
+    })
+  })
+}
+
+function AtkDisc(msg, user, quantity){
+  if(user["atk-discs"] < quantity) return msg.channel.send(`You do not have enough ATK discs 😥`)
+  user["atk-discs"] -= quantity
+  user.bussy = true
+  userDB.set(msg.author.id, user)
+  msg.channel.send(`Name the stand you want to give the disc${quantity == 1 ? "" : "s"} to`)
+  var discsUsed = false
+  const filter = m => m.author.id == msg.author.id
+  const collector = msg.channel.createMessageCollector({ filter: filter, time: 55000 })
+  collector.on('collect', m => {
+    userDB.get(msg.author.id).then( user => {
+      index = user.stands.map(x => x.name.toLowerCase()).indexOf(m.content.toLowerCase())
+      if(index == -1) return msg.channel.send("You do not own that stand or misspelled the name")
+      user.stands[index].strength += 20 * quantity
+      user.bussy = false
+      userDB.set(msg.author.id, user)
+      discsUsed = true
+      msg.channel.send(`**${user.stands[index].name}** has received **${quantity}** disc${quantity == 1 ? "" : "s"} 🤩`)
+      collector.stop()
+    })
+  })
+  collector.on('end', event => {
+    userDB.get(msg.author.id).then( user => {
+      if(discsUsed) return
+      user["atk-discs"] += quantity
+      userDB.set(msg.author.id, user)
+      return msg.channel.send("Your non used discs have been refunded")
     })
   })
 }

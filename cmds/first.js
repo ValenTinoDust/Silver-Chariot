@@ -11,7 +11,6 @@ first = (msg, args) => {
     if(user.bussy) return msg.channel.send("You are bussy on another transaction")
     stand = user.stands.slice(index)[0]
     user.stands.unshift(stand)
-    console.log(user.stands)
     userDB.set(msg.author.id, user)
     return msg.channel.send(`**${stand.name}** is now your primary stand`)
   })

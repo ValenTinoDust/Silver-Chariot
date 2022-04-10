@@ -8,6 +8,8 @@ const userExample = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
+  "h-discs": 0,
+  "atk-discs": 0,
   stands: [],
   bussy: false
 }

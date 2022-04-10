@@ -8,6 +8,8 @@ const userExample = {
   lastStClaim: null,
   arrows: 0,
   reqArrows: 0,
+  "h-discs": 0,
+  "atk-discs": 0,
   stands: [],
   bussy: false
 }
@@ -19,6 +21,8 @@ const masterUserExample = {
   lastStClaim: null,
   arrows: 999999999999999,
   reqArrows: 999999999999999,
+  "h-discs": 0,
+  "atk-discs": 0,
   stands: [],
   bussy: false
 }
