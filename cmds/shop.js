@@ -182,7 +182,7 @@ shop = msg => {
 const shopEmbed = new MessageEmbed()
   .setColor('#ffa701')
   .setTitle(`Shop`)
-  .setDescription("Commands:\n**buy <item> <amount>**\n**sell <item> <amount>**\n**sell stand <stand name>**\n")
+  .setDescription("Commands:\n**buy <item> <amount>**\n**sell <item> <amount>**\n**sell stand <stand name>**\n\n**Items you can buy:**\nHealth Discs h-disc\nATK Discs atk-disc\nArrow arrow (arr)\nRequiem Arrow requiem (req)\n\n**Items you can sell:**\nHealth Discs h-disc\nATK Discs atk-disc\nArrow arrow (arr)\nRequiem Arrow requiem (req)\nStand stand (st)")
   .setImage('attachment://bags.png')
 
 module.exports = { sell, buy, shop }

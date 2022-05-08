@@ -48,6 +48,10 @@ function exampleStand(stand){
 	.setColor('#FFBF00')
 	.setTitle(`${stand.name}`)
 	.setDescription(`Stardust: **${stand.stardust}**`)
+  .addFields(
+	{ name: 'Health:', value: `${stand.health}`, inline: true },
+	{ name: 'Strength:', value: `${stand.strength}`, inline: true },
+	)
 	.setImage(stand.imgURL)
 }
 

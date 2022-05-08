@@ -1,5 +1,8 @@
-const Discord = require('discord.js');
+const keepAlive = require("./server.js")
+const Discord = require('discord.js')
 const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MEMBERS, Discord.Intents.FLAGS.GUILD_BANS, Discord.Intents.FLAGS.GUILD_MESSAGES, Discord.Intents.FLAGS.DIRECT_MESSAGES, Discord.Intents.FLAGS.GUILD_MESSAGE_REACTIONS] })
+const Database = require("@replit/database")
+const userDB = new Database()
 
 const { claim, daily } = require('./cmds/claims.js')
 const balance = require('./cmds/balance.js')
@@ -10,12 +13,30 @@ const standlist = require("./cmds/standlist.js")
 const stands = require("./cmds/stands.js")
 const give = require("./cmds/give.js")
 const first = require("./cmds/first.js")
-const { log, reset, master, cooldown } = require("./cmds/log.js")
+const { log, reset, master, cooldown, resetDB, logKeys } = require("./cmds/log.js")
 const { casino, roulette } = require("./cmds/casino.js")
 const trade = require("./cmds/trade.js")
+const help = require("./cmds/help.js")
+const _8ball = require("./cmds/8ball.js")
+const fight = require("./cmds/fight.js")
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`)
+  console.log(new Date().toLocaleTimeString())
+  userDB.list().then(keys => {
+    if(!keys) return
+    keys.forEach(key => 
+      userDB.get(key).then(user => {
+        user.bussy = false
+        userDB.set(key, user)
+      })
+    )
+  })
+  let guild = client.guilds.cache.get('964671082705596456'), channel
+  if(guild){
+    channel = guild.channels.cache.get("964671082705596459")
+    if(channel) channel.send("Bot restarted")
+  }
 })
 
 const prefix = "sv!"
@@ -84,6 +105,7 @@ client.on("messageCreate", msg => {
     case "master":
       master(msg)
       break
+    case "r":
     case "roulette":
     roulette(msg, args)
       break
@@ -99,8 +121,23 @@ client.on("messageCreate", msg => {
     case "trade":
       trade(msg, args)
       break
+    case "help":
+      help(msg)
+      break
+    case "resetdb":
+      resetDB(msg)
+      break
+    case "logkeys":
+      logKeys(msg)
+    case "8ball":
+      _8ball(msg)
+      break
+    case "fight":
+      fight(msg)
+      break
   }
 })
 
-const mySecret = process.env['TOKEN']
+const mySecret = process.env['S-chariotToken']
+keepAlive()
 client.login(mySecret)

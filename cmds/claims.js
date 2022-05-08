@@ -2,7 +2,7 @@ const Database = require("@replit/database")
 const userDB = new Database()
 
 const userExampleClaim = {
-  stardust: 500,
+  stardust: 1000,
   lastClaim: Date.now(),
   lastDaily: null,
   lastStClaim: null,
@@ -15,7 +15,7 @@ const userExampleClaim = {
 }
 
 const userExampleDaily = {
-  stardust: 500,
+  stardust: 3000,
   lastClaim: null,
   lastDaily: Date.now(),
   arrows: 0,
@@ -33,13 +33,13 @@ claim = msg => {
   userDB.get(msg.author.id).then( user => {
     if(!user || user.length < 1){
       userDB.set(msg.author.id, userExampleClaim)
-      msg.channel.send('You earned **500 ⭐ stardust ⭐**')
+      msg.channel.send('You earned **1000 ⭐ stardust ⭐**')
     } else if(user.lastClaim == null || (-Date.now() + timeout + user.lastClaim) <= 0){
       if(user.bussy) return msg.channel.send("You are bussy on another transaction")
-      user.stardust += 500
+      user.stardust += 1000
       user.lastClaim = Date.now()
       userDB.set(msg.author.id, user)
-      msg.channel.send('You earned **500 ⭐ stardust ⭐**')
+      msg.channel.send('You earned **1000 ⭐ stardust ⭐**')
     } else {
       timeLeft = msToTime(-Date.now() + user.lastClaim + timeout).slice(1)
       msg.channel.send(`You have already claimed. Next claim in **${timeLeft}**`)
@@ -51,13 +51,13 @@ daily = msg => {
   userDB.get(msg.author.id).then( user => {
     if(!user || user.length < 1){
       userDB.set(msg.author.id, userExampleDaily)
-      msg.channel.send('You earned **500 ⭐ stardust ⭐**')
+      msg.channel.send('You earned **3000 ⭐ stardust ⭐**')
     } else if(user.lastDaily == null || (-Date.now() + timeoutDaily + user.lastDaily) <= 0){
       if(user.bussy) return msg.channel.send("You are bussy on another transaction")
-      user.stardust += 500
+      user.stardust += 3000
       user.lastDaily = Date.now()
       userDB.set(msg.author.id, user)
-      msg.channel.send('You earned **500 ⭐ stardust ⭐**')
+      msg.channel.send('You earned **3000 ⭐ stardust ⭐**')
     } else {
       msg.channel.send(`You have already claimed your daily. Next daily in **${msToTime(-Date.now() + user.lastDaily + timeoutDaily)}**`)
     }

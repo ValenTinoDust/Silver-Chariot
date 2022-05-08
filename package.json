@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ValenTinoDust/Silver-Chariot#readme",
   "dependencies": {
     "@replit/database": "^2.0.1",
-    "discord.js": "^13.6.0"
+    "discord.js": "^13.6.0",
+    "express": "^4.17.3"
   }
 }

@@ -40,7 +40,7 @@ give = (msg, args) => {
         case 'stardust':
           stardust(msg, user, isNaN(args[2]) ? 0 : parseInt(args[2]))
           break
-        default: msg.channel.send("You have to pick something to give")
+        default: msg.channel.send("Check syntax: **give <item> <quantity> @someone** or in case of stands **give <stand> @someone**")
       }
     }
   })

@@ -1,18 +1,1274 @@
 [
   {
+    "id": 0,
+    "name": "Silver Chariot",
+    "strength": 1200,
+    "health": 600,
+    "stardust": 1500,
+    "imgURL": "https://static.jojowiki.com/images/8/8d/latest/20200102231534/SilverChariotMangaAv.png"
+  },
+  {
     "id": 1,
     "name": "Star Platinum",
-    "strength": 1000,
-    "health": 600,
-    "stardust": 2000,
+    "strength": 3000,
+    "health": 1000,
+    "stardust": 3000,
     "imgURL": "https://static.jojowiki.com/images/6/6a/latest/20200102231412/StarPlatinumMangaAv.png"
   },
   {
     "id": 2,
     "name": "The World",
-    "strength": 1000,
-    "health": 600,
-    "stardust": 2000,
+    "strength": 2500,
+    "health": 2000,
+    "stardust": 3000,
     "imgURL": "https://static.jojowiki.com/images/c/cb/latest/20191015212934/TheWorldMangaAv.png"
+  },
+  {
+    "id": 3,
+    "name": "Magician's Red",
+    "strength": 700,
+    "health": 600,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/7/7c/latest/20200101165815/MagicianRedMangaAv.png"
+  },
+  {
+    "id": 4,
+    "name": "Hermit Purple",
+    "strength": 300,
+    "health": 100,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/0/08/latest/20200101165723/HermitPurpleMangaAv.png"
+  },
+  {
+    "id": 5,
+    "name": "Hierophant Green",
+    "strength": 600,
+    "health": 900,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/6/6a/latest/20200101165757/HierophantGreenMangaAv.png"
+  },
+  {
+    "id": 6,
+    "name": "The Fool",
+    "strength": 300,
+    "health": 1000,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/7/7f/latest/20200101235617/TheFoolMangaAv.png"
+  },
+  {
+    "id": 7,
+    "name": "Tower of Gray",
+    "strength": 200,
+    "health": 100,
+    "stardust": 100,
+    "imgURL": "https://static.jojowiki.com/images/1/1c/latest/20191015214005/TowerOfGrayMangaAv.png"
+  },
+  {
+    "id": 8,
+    "name": "Dark Blue Moon",
+    "strength": 300,
+    "health": 200,
+    "stardust": 150,
+    "imgURL": "https://static.jojowiki.com/images/0/0e/latest/20200102212827/DarkBlueMoonMangaAv.png"
+  },
+  {
+    "id": 9,
+    "name": "Strength",
+    "strength": 1000,
+    "health": 1000,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/2/24/latest/20191015215752/StrengthMangaAv.png"
+  },
+  {
+    "id": 10,
+    "name": "Ebony Devil",
+    "strength": 500,
+    "health": 500,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/9/98/latest/20191015212907/EbonyDevilMangaAv.png"
+  },
+  {
+    "id": 11,
+    "name": "Yellow Temperance",
+    "strength": 400,
+    "health": 900,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/0/03/latest/20200901095249/YellowTemperanceMangaAv.png"
+  },
+  {
+    "id": 12,
+    "name": "Hanged Man",
+    "strength": 200,
+    "health": 700,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/2/21/latest/20191015213309/HangedManMangaAv.png"
+  },
+  {
+    "id": 13,
+    "name": "Emperor",
+    "strength": 700,
+    "health": 100,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/6/6f/latest/20191015213932/EmperorMangaAv.png"
+  },
+  {
+    "id": 14,
+    "name": "Empress",
+    "strength": 100,
+    "health": 500,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/3/3b/latest/20191015213212/EmpressMangaAv.png"
+  },
+  {
+    "id": 15,
+    "name": "Wheel of Fortune",
+    "strength": 500,
+    "health": 500,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/0/0c/latest/20191015220038/WheelOfFortuneMangaAv.png"
+  },
+  {
+    "id": 16,
+    "name": "Justice",
+    "strength": 700,
+    "health": 700,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/d/d3/latest/20200102002341/JusticeMangaAv.png"
+  },
+  {
+    "id": 17,
+    "name": "Lovers",
+    "strength": 100,
+    "health": 800,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/c/cf/latest/20200101233943/LoversMangaAv.png"
+  },
+  {
+    "id": 18,
+    "name": "Sun",
+    "strength": 100,
+    "health": 100,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/b/be/latest/20191015213252/SunMangaAv.png"
+  },
+  {
+    "id": 19,
+    "name": "Geb",
+    "strength": 200,
+    "health": 700,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/8/85/latest/20191015215026/GebMangaAv.png"
+  },
+  {
+    "id": 20,
+    "name": "Death Thirteen",
+    "strength": 200,
+    "health": 1000,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/3/3f/latest/20200102002211/DeathThirteenMangaAv.png"
+  },
+  {
+    "id": 21,
+    "name": "Khnum",
+    "strength": 100,
+    "health": 100,
+    "stardust": 100,
+    "imgURL": "https://static.jojowiki.com/images/8/86/latest/20191015214343/KhnumMangaAv.png"
+  },
+  {
+    "id": 22,
+    "name": "High Priestess",
+    "strength": 600,
+    "health": 800,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/f/fe/latest/20191015214533/HighPriestessMangaAv.png"
+  },
+  {
+    "id": 23,
+    "name": "Judgement",
+    "strength": 500,
+    "health": 400,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/e/e8/latest/20191015214710/JudgementMangaAv.png"
+  },
+  {
+    "id": 24,
+    "name": "Tohth",
+    "strength": 400,
+    "health": 100,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/6/6f/latest/20191015213907/TohthMangaAv.png"
+  },
+  {
+    "id": 25,
+    "name": "Anubis",
+    "strength": 700,
+    "health": 500,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/6/60/latest/20191015214440/AnubisMangaAv.png"
+  },
+  {
+    "id": 27,
+    "name": "Bastet",
+    "strength": 300,
+    "health": 100,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/5/5d/latest/20191015212817/BastetMangaAv.png"
+  },
+  {
+    "id": 28,
+    "name": "Sethan",
+    "strength": 700,
+    "health": 100,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/a/ae/latest/20191015213532/SethanMangaAv.png"
+  },
+  {
+    "id": 29,
+    "name": "Osiris",
+    "strength": 400,
+    "health": 100,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/b/b8/latest/20200101223411/OsirisMangaAv.png"
+  },
+  {
+    "id": 30,
+    "name": "Horus",
+    "strength": 600,
+    "health": 300,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/0/0f/latest/20191015214456/HorusMangaAv.png"
+  },
+  {
+    "id": 31,
+    "name": "Atum",
+    "strength": 600,
+    "health": 100,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/f/f8/latest/20191015215909/AtumMangaAv.png"
+  },
+  {
+    "id": 32,
+    "name": "Tenore Sax",
+    "strength": 400,
+    "health": 700,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/8/8b/latest/20191015215632/TenoreSaxMangaAv.png"
+  },
+  {
+    "id": 33,
+    "name": "Cream",
+    "strength": 1000,
+    "health": 1000,
+    "stardust": 1200,
+    "imgURL": "https://static.jojowiki.com/images/2/2a/latest/20191015214200/CreamMangaAv.png"
+  },
+  {
+    "id": 34,
+    "name": "Holy's Stand",
+    "strength": 200,
+    "health": 200,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/7/74/latest/20200102221129/HolyStandMangaAv.png"
+  },
+  {
+    "id": 35,
+    "name": "Joestar's Stand",
+    "strength": 600,
+    "health": 100,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/5/57/latest/20200102225854/JoestarStandAv.png"
+  },
+  {
+    "id": 36,
+    "name": "Crazy Diamond",
+    "strength": 1500,
+    "health": 1500,
+    "stardust": 2000,
+    "imgURL": "https://static.jojowiki.com/images/d/d5/latest/20191015214436/CrazyDiamondMangaAv.png"
+  },
+  {
+    "id": 37,
+    "name": "The Hand",
+    "strength": 1200,
+    "health": 800,
+    "stardust": 1000,
+    "imgURL": "https://static.jojowiki.com/images/7/78/latest/20200101230558/TheHandMangaAv.png"
+  },
+  {
+    "id": 38,
+    "name": "Echoes",
+    "strength": 800,
+    "health": 300,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/d/d0/latest/20200809064641/EchoesAv.gif"
+  },
+  {
+    "id": 39,
+    "name": "Heaven's Door",
+    "strength": 900,
+    "health": 100,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/c/c4/latest/20200101222338/HeavenDoorMangaAv.png"
+  },
+  {
+    "id": 40,
+    "name": "Killer Queen",
+    "strength": 1600,
+    "health": 900,
+    "stardust": 1200,
+    "imgURL": "https://static.jojowiki.com/images/3/35/latest/20210726111253/KillerQueenMangaAv.png"
+  },
+  {
+    "id": 41,
+    "name": "Sheer Heart Attack",
+    "strength": 2000,
+    "health": 3000,
+    "stardust": 2500,
+    "imgURL": "https://static.jojowiki.com/images/c/ce/latest/20191015213947/SheerHeartAttackAv.png"
+  },
+  {
+    "id": 42,
+    "name": "Bites the Dust",
+    "strength": 3000,
+    "health": 2000,
+    "stardust": 2500,
+    "imgURL": "https://static.jojowiki.com/images/thumb/1/1d/latest/20191017172656/BitestheDustMangaAv.jpg/180px-BitestheDustMangaAv.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Aqua Necklace",
+    "strength": 400,
+    "health": 800,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/1/11/latest/20191015215849/AquaNecklaceMangaAv.png"
+  },
+  {
+    "id": 44,
+    "name": "Bad Company",
+    "strength": 800,
+    "health": 500,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/8/8f/latest/20191015215910/BadCompanyMangaAv.png"
+  },
+  {
+    "id": 45,
+    "name": "Red Hot Chili Pepper",
+    "strength": 1400,
+    "health": 1000,
+    "stardust": 1100,
+    "imgURL": "https://static.jojowiki.com/images/3/34/latest/20191015213019/RedHotChiliPepperMangaAv.png"
+  },
+  {
+    "id": 46,
+    "name": "The Lock",
+    "strength": 400,
+    "health": 800,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/0/05/latest/20191015213316/TheLockMangaAv.png"
+  },
+  {
+    "id": 47,
+    "name": "Surface",
+    "strength": 200,
+    "health": 300,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/4/44/latest/20191015214333/SurfaceMangaAv.png"
+  },
+  {
+    "id": 48,
+    "name": "Love Deluxe",
+    "strength": 400,
+    "health": 300,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/a/ae/latest/20200410023323/LoveDeluxeMangaAv.png"
+  },
+  {
+    "id": 49,
+    "name": "Pearl Jam",
+    "strength": 200,
+    "health": 100,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/9/98/latest/20191015213323/PearlJamMangaAv.png"
+  },
+  {
+    "id": 50,
+    "name": "Achtung Baby",
+    "strength": 100,
+    "health": 100,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/4/42/latest/20191015214127/AchtungBabyMangaAv.png"
+  },
+  {
+    "id": 51,
+    "name": "Rat",
+    "strength": 900,
+    "health": 200,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/0/04/latest/20191015220012/RattMangaAv.png"
+  },
+  {
+    "id": 52,
+    "name": "Harvest",
+    "strength": 300,
+    "health": 1000,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/8/88/latest/20191015220107/HarvestMangaAv.png"
+  },
+  {
+    "id": 53,
+    "name": "Cinderella",
+    "strength": 200,
+    "health": 200,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/8/8f/latest/20191015215818/CinderellaMangaAv.png"
+  },
+  {
+    "id": 54,
+    "name": "Atom Heart Father",
+    "strength": 100,
+    "health": 100,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/9/99/latest/20191015215703/AtomHeartFatherMangaAv.png"
+  },
+  {
+    "id": 55,
+    "name": "Boy II Man",
+    "strength": 200,
+    "health": 200,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/0/0d/latest/20191015215024/BoyIIManMangaAv.png"
+  },
+  {
+    "id": 56,
+    "name": "Earth Wind and Fire",
+    "strength": 500,
+    "health": 700,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/9/9e/latest/20200808071651/EarthWindAndFireMangaAv.png"
+  },
+  {
+    "id": 57,
+    "name": "Highway Star",
+    "strength": 300,
+    "health": 800,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/9/97/latest/20200410024034/HighwayStarMangaAv.png"
+  },
+  {
+    "id": 58,
+    "name": "Stray Cat",
+    "strength": 900,
+    "health": 500,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/0/09/latest/20200410023420/StrayCatMangaAv.png"
+  },
+  {
+    "id": 59,
+    "name": "Super Fly",
+    "strength": 300,
+    "health": 500,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/6/68/latest/20191015214905/SuperFlyMangaAv.png"
+  },
+  {
+    "id": 60,
+    "name": "Enigma",
+    "strength": 700,
+    "health": 200,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/9/9b/latest/20191015214344/EnigmaMangaAv.png"
+  },
+  {
+    "id": 61,
+    "name": "Cheap Trick",
+    "strength": 200,
+    "health": 800,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/9/92/latest/20191015215002/CheapTrickMangaAv.png"
+  },
+  {
+    "id": 62,
+    "name": "Gold Experience",
+    "strength": 1200,
+    "health": 1500,
+    "stardust": 2000,
+    "imgURL": "https://static.jojowiki.com/images/2/2a/latest/20191015213248/GoldExperienceAv.png"
+  },
+  {
+    "id": 63,
+    "name": "Sticky Fingers",
+    "strength": 900,
+    "health": 1000,
+    "stardust": 1300,
+    "imgURL": "https://static.jojowiki.com/images/4/46/latest/20191015212841/StickyFingersAv.png"
+  },
+  {
+    "id": 64,
+    "name": "Moody Blues",
+    "strength": 300,
+    "health": 300,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/a/ae/latest/20191015213327/MoodyBluesAv.png"
+  },
+  {
+    "id": 65,
+    "name": "Sex Pistols",
+    "strength": 900,
+    "health": 600,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/thumb/f/f5/latest/20191015213846/SexPistolsAv.png/180px-SexPistolsAv.png"
+  },
+  {
+    "id": 66,
+    "name": "Aerosmith",
+    "strength": 900,
+    "health": 500,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/d/d7/latest/20191015213213/AerosmithAv.png"
+  },
+  {
+    "id": 67,
+    "name": "Purple Haze",
+    "strength": 1400,
+    "health": 500,
+    "stardust": 1200,
+    "imgURL": "https://static.jojowiki.com/images/2/25/latest/20191015213853/PurpleHazeAv.png"
+  },
+  {
+    "id": 68,
+    "name": "Spice Girl",
+    "strength": 600,
+    "health": 1300,
+    "stardust": 1000,
+    "imgURL": "https://static.jojowiki.com/images/3/37/latest/20191015213653/SpiceGirlAv.png"
+  },
+  {
+    "id": 69,
+    "name": "Mr.President",
+    "strength": 100,
+    "health": 300,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/d/d1/latest/20191015214140/MrPresidentAv.png"
+  },
+  {
+    "id": 70,
+    "name": "King Crimson",
+    "strength": 2000,
+    "health": 2000,
+    "stardust": 3000,
+    "imgURL": "https://static.jojowiki.com/images/1/18/latest/20191015214246/KingCrimsonAv.png"
+  },
+  {
+    "id": 71,
+    "name": "Black Sabbath",
+    "strength": 200,
+    "health": 600,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/d/db/latest/20191015213551/BlackSabbathAv.png"
+  },
+  {
+    "id": 72,
+    "name": "Soft Machine",
+    "strength": 300,
+    "health": 100,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/f/fa/latest/20191015214550/SoftMachineAv.png"
+  },
+  {
+    "id": 73,
+    "name": "Kraft Work",
+    "strength": 200,
+    "health": 600,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/0/07/latest/20191015214709/KraftWorkAv.png"
+  },
+  {
+    "id": 74,
+    "name": "Little Feet",
+    "strength": 600,
+    "health": 300,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/3/3f/latest/20191015215821/LittleFeetAv.png"
+  },
+  {
+    "id": 75,
+    "name": "Man in the Mirror",
+    "strength": 400,
+    "health": 1000,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/1/10/latest/20191015213626/ManInTheMirrorAv.png"
+  },
+  {
+    "id": 76,
+    "name": "Beach Boy",
+    "strength": 300,
+    "health": 100,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/5/5b/latest/20191015215457/BeachBoyAv.png"
+  },
+  {
+    "id": 77,
+    "name": "The Grateful Dead",
+    "strength": 700,
+    "health": 200,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/6/61/latest/20191015212713/TheGratefulDeadAv.png"
+  },
+  {
+    "id": 78,
+    "name": "Baby Face",
+    "strength": 1100,
+    "health": 2000,
+    "stardust": 1500,
+    "imgURL": "https://static.jojowiki.com/images/3/3c/latest/20191015215320/BabyFaceAv.gif"
+  },
+  {
+    "id": 79,
+    "name": "White Album",
+    "strength": 2000,
+    "health": 2000,
+    "stardust": 2300,
+    "imgURL": "https://static.jojowiki.com/images/c/c6/latest/20191015213135/WhiteAlbumAv.png"
+  },
+  {
+    "id": 80,
+    "name": "Clash",
+    "strength": 400,
+    "health": 400,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/7/79/latest/20191015214703/ClashAv.png"
+  },
+  {
+    "id": 81,
+    "name": "Talking Head",
+    "strength": 200,
+    "health": 100,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/0/0a/latest/20191015214221/TalkingHeadAv.png"
+  },
+  {
+    "id": 82,
+    "name": "Notorius B.I.G.",
+    "strength": 1000,
+    "health": 2000,
+    "stardust": 1500,
+    "imgURL": "https://static.jojowiki.com/images/9/94/latest/20191015215626/NotoriousBIGAv.png"
+  },
+  {
+    "id": 83,
+    "name": "Metallica",
+    "strength": 1000,
+    "health": 700,
+    "stardust": 900,
+    "imgURL": "https://static.jojowiki.com/images/c/c0/latest/20191015213424/MetallicaAv.png"
+  },
+  {
+    "id": 84,
+    "name": "Green Day",
+    "strength": 1200,
+    "health": 300,
+    "stardust": 900,
+    "imgURL": "https://static.jojowiki.com/images/a/a9/latest/20191015220156/GreenDayAv.png"
+  },
+  {
+    "id": 85,
+    "name": "Oasis",
+    "strength": 400,
+    "health": 1000,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/6/66/latest/20191015214715/OasisAv.png"
+  },
+  {
+    "id": 86,
+    "name": "Rolling Stones",
+    "strength": 100,
+    "health": 200,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/b/be/latest/20191015215050/RollingStonesAv.png"
+  },
+  {
+    "id": 87,
+    "name": "Natural Resources Worker's Stand",
+    "strength": 500,
+    "health": 0,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/8/83/latest/20191015212928/NRWStandAv.png"
+  },
+  {
+    "id": 88,
+    "name": "Stone Free",
+    "strength": 1500,
+    "health": 1800,
+    "stardust": 2100,
+    "imgURL": "https://static.jojowiki.com/images/0/0f/latest/20211201062430/StoneFreeAv.png"
+  },
+  {
+    "id": 89,
+    "name": "Kiss",
+    "strength": 900,
+    "health": 800,
+    "stardust": 1000,
+    "imgURL": "https://static.jojowiki.com/images/thumb/b/b2/latest/20191015215822/KissAv.png/180px-KissAv.png"
+  },
+  {
+    "id": 90,
+    "name": "Burning Down the House",
+    "strength": 100,
+    "health": 600,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/thumb/c/c9/latest/20191015213745/BurningDowntheHouseAv.png/180px-BurningDowntheHouseAv.png"
+  },
+  {
+    "id": 91,
+    "name": "Foo Fighters",
+    "strength": 800,
+    "health": 1000,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/thumb/7/78/latest/20191015213818/FooFightersAv.png/180px-FooFightersAv.png"
+  },
+  {
+    "id": 92,
+    "name": "Weather Report",
+    "strength": 2500,
+    "health": 1300,
+    "stardust": 2000,
+    "imgURL": "https://static.jojowiki.com/images/thumb/0/09/latest/20191015215410/WeatherReportSAv.png/180px-WeatherReportSAv.png"
+  },
+  {
+    "id": 93,
+    "name": "Diver Down",
+    "strength": 700,
+    "health": 200,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/thumb/d/d9/latest/20191015213128/DiverDownAv.png/180px-DiverDownAv.png"
+  },
+  {
+    "id": 94,
+    "name": "Whitesnake",
+    "strength": 2000,
+    "health": 1500,
+    "stardust": 2000,
+    "imgURL": "https://static.jojowiki.com/images/c/c8/latest/20210725203521/WhitesnakeAv.png"
+  },
+  {
+    "id": 95,
+    "name": "Goo Goo Dolls",
+    "strength": 600,
+    "health": 200,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/5/52/latest/20200102220712/GooGooDollsAv.png"
+  },
+  {
+    "id": 96,
+    "name": "Manhattan Transfer",
+    "strength": 900,
+    "health": 400,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/c/c9/latest/20191015214113/ManhattanTransferAv.png"
+  },
+  {
+    "id": 97,
+    "name": "Highway to Hell",
+    "strength": 1500,
+    "health": 100,
+    "stardust": 900,
+    "imgURL": "https://static.jojowiki.com/images/4/40/latest/20200102221142/HighwayToHellAv.png"
+  },
+  {
+    "id": 98,
+    "name": "Marilyn Manson",
+    "strength": 700,
+    "health": 200,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/d/d9/latest/20200101233522/MarilynMansonAv.png"
+  },
+  {
+    "id": 99,
+    "name": "Jumpin' Jack Flash",
+    "strength": 1000,
+    "health": 400,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/1/10/latest/20200102225922/JumpinJackFlashAv.png"
+  },
+  {
+    "id": 100,
+    "name": "Limp Bizkit",
+    "strength": 900,
+    "health": 900,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/a/a9/latest/20200101165626/LimpBizkitAv.png"
+  },
+  {
+    "id": 101,
+    "name": "Survivor",
+    "strength": 300,
+    "health": 200,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/b/b7/latest/20200101230001/SurvivorAv.png"
+  },
+  {
+    "id": 102,
+    "name": "Planet Waves",
+    "strength": 900,
+    "health": 600,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/4/42/latest/20200101235034/PlanetWavesAv.png"
+  },
+  {
+    "id": 103,
+    "name": "Dragon's Dream",
+    "strength": 500,
+    "health": 100,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/e/e6/latest/20200102220641/DragonDreamAv.png"
+  },
+  {
+    "id": 104,
+    "name": "Yo-Yo Ma",
+    "strength": 600,
+    "health": 600,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/8/86/latest/20200101232207/YoYoMaAv.png"
+  },
+  {
+    "id": 105,
+    "name": "Green, Green Grass of Home",
+    "strength": 400,
+    "health": 200,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/3/3d/latest/20200102214241/GrassOfHomeAv.png"
+  },
+  {
+    "id": 106,
+    "name": "Jail House Lock",
+    "strength": 500,
+    "health": 200,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/7/72/latest/20200102213508/JailHouseLockAv.png"
+  },
+  {
+    "id": 107,
+    "name": "Bohemian Rhapsody",
+    "strength": 5000,
+    "health": 5000,
+    "stardust": 9000,
+    "imgURL": "https://static.jojowiki.com/images/0/01/latest/20200101232608/BohemianRhapsodyAv.png"
+  },
+  {
+    "id": 108,
+    "name": "Sky High",
+    "strength": 400,
+    "health": 200,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/0/0f/latest/20191015213557/SkyHighAv.png"
+  },
+  {
+    "id": 109,
+    "name": "Under World",
+    "strength": 800,
+    "health": 300,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/3/36/latest/20191015215401/UnderworldAv.png"
+  },
+  {
+    "id": 110,
+    "name": "Boiling Water Stand",
+    "strength": 500,
+    "health": 400,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/3/3e/latest/20200102225617/BoilingWaterAv.png"
+  },
+  {
+    "id": 111,
+    "name": "Tusk",
+    "strength": 2000,
+    "health": 1200,
+    "stardust": 2000,
+    "imgURL": "https://static.jojowiki.com/images/9/91/latest/20191015214625/TuskAV.gif"
+  },
+  {
+    "id": 112,
+    "name": "Ball Breaker",
+    "strength": 1600,
+    "health": 800,
+    "stardust": 1200,
+    "imgURL": "https://static.jojowiki.com/images/4/4b/latest/20191015215037/BallBreakerAv.png"
+  },
+  {
+    "id": 113,
+    "name": "Ticket to Ride",
+    "strength": 200,
+    "health": 800,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/a/aa/latest/20191015214048/TicketToRideAv.png"
+  },
+  {
+    "id": 114,
+    "name": "Oh! Lonesome me",
+    "strength": 300,
+    "health": 700,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/a/a8/latest/20191015214040/LonesomeMeAv.png"
+  },
+  {
+    "id": 115,
+    "name": "Scary Monsters",
+    "strength": 900,
+    "health": 900,
+    "stardust": 1000,
+    "imgURL": "https://static.jojowiki.com/images/3/3a/latest/20191015215106/ScaryMonstersAv.png"
+  },
+  {
+    "id": 116,
+    "name": "Cream Starter",
+    "strength": 700,
+    "health": 400,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/8/87/latest/20191015213918/CreamStarterAv.png"
+  },
+  {
+    "id": 117,
+    "name": "Dirty Deeds Done Dirt Cheap",
+    "strength": 1000,
+    "health": 2000,
+    "stardust": 1500,
+    "imgURL": "https://static.jojowiki.com/images/3/32/latest/20191015213650/D4CAv.png"
+  },
+  {
+    "id": 118,
+    "name": "In a Silent Way",
+    "strength": 700,
+    "health": 800,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/0/01/latest/20191015212713/InASilentWayAv.png"
+  },
+  {
+    "id": 119,
+    "name": "Hey Ya!",
+    "strength": 100,
+    "health": 1200,
+    "stardust": 900,
+    "imgURL": "https://static.jojowiki.com/images/a/a1/latest/20191015214247/HeyYaAv.png"
+  },
+  {
+    "id": 120,
+    "name": "Tomb of the Boom 1 2 3",
+    "strength": 600,
+    "health": 800,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/1/15/latest/20191015214620/BoomAv.gif"
+  },
+  {
+    "id": 121,
+    "name": "Boku no Rhythm wo Kiitekure",
+    "strength": 1000,
+    "health": 200,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/5/5e/latest/20191015215720/RhythmAv.png"
+  },
+  {
+    "id": 122,
+    "name": "Wired",
+    "strength": 700,
+    "health": 400,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/9/96/latest/20191015214350/WiredAv.png"
+  },
+  {
+    "id": 123,
+    "name": "Mandom",
+    "strength": 900,
+    "health": 1100,
+    "stardust": 1000,
+    "imgURL": "https://static.jojowiki.com/images/c/c1/latest/20191015215340/MandomAv.png"
+  },
+  {
+    "id": 124,
+    "name": "Catch the Rainbow",
+    "strength": 700,
+    "health": 400,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/1/16/latest/20191015214047/CatchTheRainbowAv.png"
+  },
+  {
+    "id": 125,
+    "name": "Sugar Mountain",
+    "strength": 200,
+    "health": 200,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/4/41/latest/20200102220014/SugarMountainSpringAv.png"
+  },
+  {
+    "id": 126,
+    "name": "Tatoo You!",
+    "strength": 300,
+    "health": 500,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/e/e9/latest/20191015215037/TattooYouAv.png"
+  },
+  {
+    "id": 127,
+    "name": "Tubular Bells",
+    "strength": 700,
+    "health": 300,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/5/55/latest/20191015215001/TubularBellsAv.png"
+  },
+  {
+    "id": 128,
+    "name": "20th Century Boy",
+    "strength": 200,
+    "health": 2500,
+    "stardust": 1300,
+    "imgURL": "https://static.jojowiki.com/images/9/9a/latest/20200211033407/20thCenturyBoyAv.png"
+  },
+  {
+    "id": 129,
+    "name": "Civil War",
+    "strength": 900,
+    "health": 1000,
+    "stardust": 900,
+    "imgURL": "https://static.jojowiki.com/images/b/b9/latest/20191015213521/CivilWarAv.png"
+  },
+  {
+    "id": 130,
+    "name": "Chocolate Disco",
+    "strength": 500,
+    "health": 200,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/9/95/latest/20191015215915/ChocolateDiscoAv.png"
+  },
+  {
+    "id": 131,
+    "name": "Alternate Johnny's Stand",
+    "strength": 1500,
+    "health": 700,
+    "stardust": 1000,
+    "imgURL": "https://static.jojowiki.com/images/6/6e/latest/20210911024333/AltJohnnyStandAV.png"
+  },
+  {
+    "id": 132,
+    "name": "Alternative Hot Pants' Stand",
+    "strength": 700,
+    "health": 500,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/f/f5/latest/20210911024510/AltHotPantsStandAV.png"
+  },
+  {
+    "id": 133,
+    "name": "Soft & Wet",
+    "strength": 2000,
+    "health": 1500,
+    "stardust": 1800,
+    "imgURL": "https://static.jojowiki.com/images/5/57/latest/20191015215853/Soft%26WetAv.png"
+  },
+  {
+    "id": 134,
+    "name": "Paisley Park",
+    "strength": 600,
+    "health": 300,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/2/26/latest/20191015212930/PaisleyParkAv.png"
+  },
+  {
+    "id": 135,
+    "name": "Doggy Style",
+    "strength": 200,
+    "health": 200,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/4/4c/latest/20200101163627/DoggyStyleAv.png"
+  },
+  {
+    "id": 136,
+    "name": "California King Bed",
+    "strength": 500,
+    "health": 100,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/f/f1/latest/20200101163521/CaliforniaKingBedAv.png"
+  },
+  {
+    "id": 138,
+    "name": "Born This Way",
+    "strength": 600,
+    "health": 600,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/0/0f/latest/20201026194018/BornThisWayAv.png"
+  },
+  {
+    "id": 139,
+    "name": "Nut King Call",
+    "strength": 900,
+    "health": 400,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/0/06/latest/20191015214043/NutKingCallAv.png"
+  },
+  {
+    "id": 140,
+    "name": "Paper Moon King",
+    "strength": 300,
+    "health": 200,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/d/db/latest/20200102221629/PaperMoonKingAv.png"
+  },
+  {
+    "id": 141,
+    "name": "King Nothing",
+    "strength": 100,
+    "health": 900,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/d/d3/latest/20200102225825/KingNothingAv.png"
+  },
+  {
+    "id": 142,
+    "name": "Speed King",
+    "strength": 700,
+    "health": 200,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/e/e0/latest/20201229183344/SpeedKingAv.png"
+  },
+  {
+    "id": 143,
+    "name": "Love Love Deluxe",
+    "strength": 100,
+    "health": 100,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/8/86/latest/20210228035157/LoveLoveDeluxeAv.png"
+  },
+  {
+    "id": 144,
+    "name": "Walking Heart",
+    "strength": 600,
+    "health": 600,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/b/bf/latest/20200101230701/WalkingHeartAv.png"
+  },
+  {
+    "id": 145,
+    "name": "Space Trucking",
+    "strength": 700,
+    "health": 500,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/a/a9/latest/20210518201207/SpaceTruckingAv.png"
+  },
+  {
+    "id": 146,
+    "name": "Awaking III Leaves",
+    "strength": 200,
+    "health": 800,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/7/75/latest/20201230081234/Awaking3LeavesAv.png"
+  },
+  {
+    "id": 147,
+    "name": "Wonder of U",
+    "strength": 1000,
+    "health": 800,
+    "stardust": 800,
+    "imgURL": "https://static.jojowiki.com/images/8/80/latest/20210520162954/WonderofUAv.png"
+  },
+  {
+    "id": 148,
+    "name": "Fun Fun Fun",
+    "strength": 400,
+    "health": 200,
+    "stardust": 300,
+    "imgURL": "https://static.jojowiki.com/images/1/12/latest/20201231232648/FunFunFunAv.png"
+  },
+  {
+    "id": 149,
+    "name": "Les Feuilles",
+    "strength": 200,
+    "health": 600,
+    "stardust": 400,
+    "imgURL": "https://static.jojowiki.com/images/9/98/latest/20200101160921/LesFeuillesAv.png"
+  },
+  {
+    "id": 150,
+    "name": "I Am a Rock",
+    "strength": 700,
+    "health": 300,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/3/36/latest/20200101161426/I_Am_a_Rock_Av.png"
+  },
+  {
+    "id": 151,
+    "name": "Doobie Wah!",
+    "strength": 400,
+    "health": 800,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/c/c8/latest/20210110000817/DoobieWahAv.png"
+  },
+  {
+    "id": 152,
+    "name": "Schott Key No.1",
+    "strength": 200,
+    "health": 100,
+    "stardust": 200,
+    "imgURL": "https://static.jojowiki.com/images/2/26/latest/20200101155931/Schottkey1Av.png"
+  },
+  {
+    "id": 153,
+    "name": "Schott Key No.2",
+    "strength": 900,
+    "health": 300,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/5/50/latest/20200101160903/Schottkey2Av.png"
+  },
+  {
+    "id": 154,
+    "name": "Vitamin C",
+    "strength": 800,
+    "health": 500,
+    "stardust": 600,
+    "imgURL": "https://static.jojowiki.com/images/0/03/latest/20191015214110/VitaminCAv.png"
+  },
+  {
+    "id": 155,
+    "name": "Milagro Man",
+    "strength": 1400,
+    "health": 400,
+    "stardust": 1000,
+    "imgURL": "https://static.jojowiki.com/images/4/4f/latest/20200101162948/MilagroManAv.png"
+  },
+  {
+    "id": 156,
+    "name": "Blue Hawaii",
+    "strength": 500,
+    "health": 600,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/5/59/latest/20200102215326/BlueHawaiiAv.png"
+  },
+  {
+    "id": 157,
+    "name": "Brain Storm",
+    "strength": 700,
+    "health": 900,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/f/f6/latest/20200101233445/BrainStormAv.png"
+  },
+  {
+    "id": 158,
+    "name": "Ozon Baby",
+    "strength": 1000,
+    "health": 300,
+    "stardust": 700,
+    "imgURL": "https://static.jojowiki.com/images/c/c1/latest/20201229184213/OzonBabyAv.png"
+  },
+  {
+    "id": 159,
+    "name": "Doctor Wu",
+    "strength": 0,
+    "health": 2000,
+    "stardust": 1000,
+    "imgURL": "https://static.jojowiki.com/images/5/5a/latest/20201230080844/DoctorWuAv.png"
+  },
+  {
+    "id": 160,
+    "name": "Joseph's Stand",
+    "strength": 300,
+    "health": 200,
+    "stardust": 500,
+    "imgURL": "https://static.jojowiki.com/images/9/9e/latest/20210818144455/Joseph8StandAv.png"
   }
 ]

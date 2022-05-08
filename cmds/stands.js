@@ -67,7 +67,7 @@ function exampleStand(stand){
 	.setDescription(`Stardust: **${stand.stardust}**`)
   .addFields(
 	{ name: 'Health:', value: `${stand.health}`, inline: true },
-	{ name: 'Strength / ATK:', value: `${stand.strength}`, inline: true },
+	{ name: 'Strength:', value: `${stand.strength}`, inline: true },
 	)
 	.setImage(stand.imgURL)
 }

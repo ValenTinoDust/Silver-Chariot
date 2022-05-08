@@ -28,7 +28,7 @@ const masterUserExample = {
 }
 
 userLog = (msg, args) => {
-  if(!(msg.author.id == "932282133962182696")) return msg.channel.send("❌ **You are not authorised** ❌")
+  if(!(msg.author.id == "932282133962182696" || msg.author.id == "822854239087886346")) return msg.channel.send("❌ **You are not authorised** ❌")
   target = msg.mentions.first ? msg.mentions.first : msg.author
   userDB.get(target.id).then(user => {
     if(!user || user.length < 1){
@@ -39,8 +39,14 @@ userLog = (msg, args) => {
   })
 }
 
+resetDB = msg => {
+  if(!(msg.author.id == "932282133962182696" || msg.author.id == "822854239087886346")) return msg.channel.send("❌ **You are not authorised** ❌")
+  userDB.empty()
+  return msg.channel.send(`Database has been reset`)
+}
+
 resetUser = msg => {
-  if(!(msg.author.id == "932282133962182696")) return msg.channel.send("❌ **You are not authorised** ❌")
+  if(!(msg.author.id == "932282133962182696" || msg.author.id == "822854239087886346")) return msg.channel.send("❌ **You are not authorised** ❌")
   const target = msg.mentions.users.first() || msg.author;
   userDB.set(target.id, userExample)
   if(target == msg.author){
@@ -50,8 +56,15 @@ resetUser = msg => {
   }
 }
 
+logKeys = msg => {
+  if(!(msg.author.id == "932282133962182696" || msg.author.id == "822854239087886346")) return msg.channel.send("❌ **You are not authorised** ❌")
+  userDB.list().then(keys => {
+    console.log(keys)
+  })
+}
+
 master = msg => {
-  if(!(msg.author.id == "932282133962182696")) return msg.channel.send("❌ **You are not authorised** ❌")
+  if(!(msg.author.id == "932282133962182696" || msg.author.id == "822854239087886346")) return msg.channel.send("❌ **You are not authorised** ❌")
   target = msg.mentions.users.first() ? msg.mentions.users.first() : msg.author
   userDB.get(target.id).then(user => {
     userDB.set(target.id, masterUserExample)
@@ -60,7 +73,7 @@ master = msg => {
 }
 
 resetUserCooldown = msg => {
-  if(!(msg.author.id == "932282133962182696")) return msg.channel.send("❌ **You are not authorised** ❌")
+  if(!(msg.author.id == "932282133962182696" || msg.author.id == "822854239087886346")) return msg.channel.send("❌ **You are not authorised** ❌")
   target = msg.mentions.users.first() ? msg.mentions.users.first() : msg.author
   userDB.get(target.id).then(user => {
     if(!user) return msg.channel.send(`<@${target.id}>'s cooldowns have been reset`)
@@ -72,4 +85,4 @@ resetUserCooldown = msg => {
   })
 }
 
-module.exports = { log: userLog, reset: resetUser, master: master, cooldown: resetUserCooldown}
+module.exports = { log: userLog, reset: resetUser, master: master, cooldown: resetUserCooldown, resetDB: resetDB, logKeys: logKeys}

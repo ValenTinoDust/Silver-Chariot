@@ -17,20 +17,8 @@ const userExample = {
 balance = msg => {
   const target = msg.mentions.users.first() || msg.author
   userDB.get(target.id).then( user => {
-    if(!user || user.length < 1){
-      userDB.set(target.id, userExample)
-      if(target == msg.author){
-        msg.channel.send(`Your total balance is **0 ⭐ stardust ⭐** 😯`)
-      } else {
-        msg.channel.send(`<@${target.id}>'s total balance is **0 ⭐ stardust ⭐** 😯`)
-      }
-    } else {
-      if(target == msg.author){
-        msg.channel.send(`Your total balance is **${user.stardust} ⭐ stardust ⭐**`)
-      } else {
-        msg.channel.send(`<@${target.id}>'s total balance is **${user.stardust} ⭐ stardust ⭐**`)
-      }
-    }
+    if(!user || user.stardust == 0) return msg.channel.send(`<@${target.id}>'s total balance is **0 ⭐ stardust ⭐** 😯`)
+    return msg.channel.send(`<@${target.id}>'s total balance is **${user.stardust} ⭐ stardust ⭐**`)
   })
 }
 

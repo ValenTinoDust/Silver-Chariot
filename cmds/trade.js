@@ -22,22 +22,21 @@ trade = (msg, args) => {
   var index2
   var stand1
   var stand2
-  var tradeEnded = false
+  var onFirstCollector = true
   if(!msg.mentions.users.first()) return msg.channel.send("You need to mention someone, **trade <user> <stand>**")
   args.shift() // remove trade
   args.shift() //remove user
   args = args.join(" ") // join the stand name
   if(args.length == 0) return msg.channel.send("You need to name the stand you want to give, **trade <user> <stand>**")
   userDB.get(msg.author.id).then( user => {
-    if(!user || user.stands.length == 0) return msg.channel.send("You do not own that stand or any others 😥")
-    if(user.bussy) return msg.channel.send("You are bussy on another transaction")
-    index1 = user.stands.map(x => x.name.toLowerCase()).indexOf(args)
-    if(index1 == -1) return msg.channel.send("You do not own that stand or misspelles the name")
-    user.bussy = true
-    userDB.set(msg.author.id, user)
     user1 = user
+    if(!user1 || user1.stands.length == 0) return msg.channel.send("You do not own that stand or any others 😥")
+    if(user1.bussy) return msg.channel.send("You are bussy on another transaction")
+    index1 = user1.stands.map(x => x.name.toLowerCase()).indexOf(args)
+    if(index1 == -1) return msg.channel.send("You do not own that stand or misspelles the name")
+    user1.bussy = true
+    userDB.set(msg.author.id, user1)
     msg.channel.send(`<@${msg.mentions.users.first().id}>, name the stand of yours you want to give or type **cancel** to reject the proposal`)
-    var onFirstCollector = true
     const firstFilter = m => m.author.id == msg.mentions.users.first().id
     const firstCollector = msg.channel.createMessageCollector({ filter: firstFilter, time: 55000 })
     firstCollector.on('collect', m => {
@@ -48,13 +47,25 @@ trade = (msg, args) => {
         return
       }
       userDB.get(m.author.id).then( user => {
-        if(!user || user.stands.length == 0) return msg.channel.send("You do not own that stand or any others 😥")
-        if(user.bussy) return msg.channel.send("You are bussy on another transaction")
-        index2 = user.stands.map(x => x.name.toLowerCase()).indexOf(m.content.toLowerCase())
-        if(index2 == -1) return msg.channel.send("You do not own that stand or misspelled the name")
-        user.bussy = true
-        userDB.set(m.author.id, user)
         user2 = user
+        if(!user2 || user2.stands.length == 0) return msg.channel.send("You do not own that stand or any others 😥")
+        if(user2.bussy) return msg.channel.send("You are bussy on another transaction")
+        index2 = user2.stands.map(x => x.name.toLowerCase()).indexOf(m.content.toLowerCase())
+        if(index2 == -1) return msg.channel.send("You do not own that stand or misspelled the name")
+        stand1 = user1.stands.splice(index1, 1)[0]
+        stand2 = user2.stands.splice(index2, 1)[0]
+        if(user2.stands.map(x => x.id).indexOf(stand1.id) != -1){
+          user1.stands.splice(index1, 0, stand1)
+          user2.stands.splice(index2, 0, stand2)
+          return msg.channel.send(`<@${msg.mentions.users.first().id}> already owns that stand`)
+        }
+        if(user1.stands.map(x => x.id).indexOf(stand2.id) != -1){
+          user1.splice(index1, 0, stand1)
+          user2.splice(index2, 0, stand2)
+          return msg.channel.send(`<@${msg.author.id}> already owns that stand`)
+        }
+        user2.bussy = true
+        userDB.set(m.author.id, user2)
         msg.channel.send(`<@${msg.author.id}>, do you accept? type **yes** or **no**`)
         onFirstCollector = false
         firstCollector.stop()
@@ -67,10 +78,6 @@ trade = (msg, args) => {
       if(m.content.toLowerCase() == "no"){
         secCollector.stop()
       } else if(m.content.toLowerCase() == "yes"){
-        stand1 = user1.stands.splice(index1, 1)[0]
-        stand2 = user2.stands.splice(index2, 1)[0]
-        if(user2.stands.map(x => x.id).indexOf(stand1.id) != -1) return msg.channel.send(`<@${msg.mentions.users.first().id}> already owns that stand`)
-        if(user1.stands.map(x => x.id).indexOf(stand2.id) != -1) return msg.channel.send(`<@${msg.author.id}> already owns that stand`)
         user1.stands.push(stand2)
         user2.stands.push(stand1)
         userDB.set(msg.author.id, user1)
@@ -79,15 +86,13 @@ trade = (msg, args) => {
       }
     })
     secCollector.on('end', event => {
-      tradeEnded = true
-      unbussy(msg, user1, user2, tradeEnded)
+      unbussy(msg, user1, user2)
       return msg.channel.send("Trade ended")
     })
   })
 }
 
-function unbussy(msg, user1, user2, tradeEnded){
-  if(!tradeEnded) return
+function unbussy(msg, user1, user2){
   if(user1){
     user1.bussy = false
     userDB.set(msg.author.id, user1)

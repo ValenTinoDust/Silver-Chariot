@@ -43,7 +43,7 @@ function colorEmoji(){
 roulette = (msg, args) => {
   userDB.get(msg.author.id).then( user => {
     if(!user || user.length < 1){
-      userDB.set(target.id, userExample)
+      userDB.set(msg.author.id, userExample)
       return msg.channel.send("You do not have enough **⭐ stardust ⭐**")
     } else {
       const amount = isNaN(args[2]) ? 0 : parseInt(args[2])
@@ -162,17 +162,15 @@ function exampleRoulette(number, amount, target){
 	.setColor('#013220')
 	.setTitle(`Roulette`)
 	.setDescription(`Bet: **${amount}** to ${target}` + "\n" + `Result: **${number == undefined ? "?" : number }**` + "\n\n" + colorEmoji())
-	//.setImage("https://pngimg.com/uploads/roulette/roulette_PNG41.png")
 }
 
 casino = msg => {
-  return msg.channel.send({ embeds: [casinoEmbed], files: ['/home/runner/Silver-Chariot/images/table.jpg'] })
+  return msg.channel.send({ embeds: [casinoEmbed] })
 }
 
 const casinoEmbed = new MessageEmbed()
 .setColor('#8b0000')
 .setTitle(`Casino`)
 .setDescription("Commands:\n**roulette <bet> <amount>**\n")
-.setImage('attachment://table.jpg')
 
 module.exports = { casino, roulette }

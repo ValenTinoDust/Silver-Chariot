@@ -88,6 +88,7 @@ function standReaction(msg, quantity){
             user.stands.push(stand)
             userDB.set(target.id, user)
             collector.stop()
+            // if(stand.name == "Silver Chariot") Do something special
             return msg.channel.send(`<@${target.id}> has been pierced by an arrow and obtained **${stand.name}**!`)
           }
           timeLeft = msToTime(-Date.now() + user.lastStClaim + timeout)
@@ -158,6 +159,10 @@ function AtkDisc(msg, user, quantity){
       return msg.channel.send("Your non used discs have been refunded")
     })
   })
+}
+
+function reqArrow(msg, user, args){
+  return msg.channel.send("In development")
 }
 
 function exampleStand(stand){
