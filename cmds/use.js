@@ -75,7 +75,7 @@ function standReaction(msg, quantity){
       if(user.id == 959517108281180230) return false
       return reaction.emoji.name === '🏹'
     }
-    const collector = embedMessage.createReactionCollector( { filter: filter }, { max: 1, time: 60000 })
+    const collector = embedMessage.createReactionCollector( { filter: filter, time: 180000 })
     var count = 0
     collector.on('collect', (reaction, target) => {
       if(count < 1){
